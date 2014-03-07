@@ -20,12 +20,19 @@ C:\Users\chen\Desktop\AppPlatformPlugin\AppPlatformPlugin\AppPlatform\AppPlatfor
 C:\Users\chen\Desktop\AppPlatformPlugin\AppPlatformPlugin\AppPlatform\AppPlatform.Model\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\chen\Desktop\AppPlatformPlugin\AppPlatformPlugin\AppPlatform\AppPlatform.Model\obj\Debug\AppPlatform.Model.dll
 C:\Users\chen\Desktop\AppPlatformPlugin\AppPlatformPlugin\AppPlatform\AppPlatform.Model\obj\Debug\AppPlatform.Model.pdb
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.Model\bin\Debug\AppPlatform.Model.dll.config
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.Model\bin\Debug\AppPlatform.Model.dll
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.Model\bin\Debug\AppPlatform.Model.pdb
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.Model\bin\Debug\EntityFramework.dll
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.Model\bin\Debug\EntityFramework.SqlServer.dll
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.Model\bin\Debug\EntityFramework.xml
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.Model\bin\Debug\EntityFramework.SqlServer.xml
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.Model\obj\Debug\AppPlatform.Model.dll
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.Model\obj\Debug\AppPlatform.Model.pdb
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.Model\obj\Debug\AppPlatform.Model.dll
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.Model\obj\Debug\AppPlatform.Model.pdb
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.Model\bin\Debug\AppPlatform.Model.dll.config
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.Model\bin\Debug\AppPlatform.Model.dll
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.Model\bin\Debug\AppPlatform.Model.pdb
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.Model\bin\Debug\EntityFramework.xml
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.Model\bin\Debug\AppPlatform.Model.dll.config
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.Model\bin\Debug\AppPlatform.Model.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.Model\bin\Debug\AppPlatform.Model.pdb
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.Model\bin\Debug\EntityFramework.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.Model\bin\Debug\EntityFramework.xml
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.Model\obj\Debug\AppPlatform.Model.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.Model\obj\Debug\AppPlatform.Model.pdb

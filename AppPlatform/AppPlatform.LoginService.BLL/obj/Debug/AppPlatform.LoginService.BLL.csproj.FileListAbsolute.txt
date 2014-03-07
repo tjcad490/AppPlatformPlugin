@@ -17,3 +17,22 @@ F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.LoginService.BLL\bi
 F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.LoginService.BLL\obj\Debug\AppPlatform.LoginService.BLL.csprojResolveAssemblyReference.cache
 F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.LoginService.BLL\obj\Debug\AppPlatform.LoginService.BLL.dll
 F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.LoginService.BLL\obj\Debug\AppPlatform.LoginService.BLL.pdb
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.LoginService.BLL\obj\Debug\AppPlatform.LoginService.BLL.csprojResolveAssemblyReference.cache
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.LoginService.BLL\obj\Debug\AppPlatform.LoginService.BLL.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.LoginService.BLL\obj\Debug\AppPlatform.LoginService.BLL.pdb
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.LoginService.BLL\bin\AppPlatform.LoginService.BLL.dll.config
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.LoginService.BLL\bin\AppPlatform.LoginService.BLL.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.LoginService.BLL\bin\AppPlatform.LoginService.BLL.pdb
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.LoginService.BLL\bin\AppPlatform.DAL.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.LoginService.BLL\bin\AppPlatform.IDAL.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.LoginService.BLL\bin\AppPlatform.Model.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.LoginService.BLL\bin\AppplatformCommon.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.LoginService.BLL\bin\EntityFramework.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.LoginService.BLL\bin\EntityFramework.SqlServer.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.LoginService.BLL\bin\UIShell.OSGi.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.LoginService.BLL\bin\AppplatformCommon.pdb
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.LoginService.BLL\bin\AppPlatform.DAL.pdb
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.LoginService.BLL\bin\AppPlatform.IDAL.pdb
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.LoginService.BLL\bin\AppPlatform.Model.pdb
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.LoginService.BLL\bin\EntityFramework.xml
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.LoginService.BLL\bin\EntityFramework.SqlServer.xml

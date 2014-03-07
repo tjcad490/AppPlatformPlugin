@@ -31,15 +31,29 @@ C:\Users\chen\Desktop\AppPlatformPlugin\AppPlatformPlugin\AppPlatform\AppPlatfor
 C:\Users\chen\Desktop\AppPlatformPlugin\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\obj\Debug\AppPlatform.DAL.csprojResolveAssemblyReference.cache
 C:\Users\chen\Desktop\AppPlatformPlugin\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\obj\Debug\AppPlatform.DAL.dll
 C:\Users\chen\Desktop\AppPlatformPlugin\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\obj\Debug\AppPlatform.DAL.pdb
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\bin\Debug\EntityFramework.dll
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.DAL.dll.config
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.DAL.dll
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.DAL.pdb
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.IDAL.dll
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.Model.dll
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.IDAL.pdb
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.Model.pdb
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\bin\Debug\EntityFramework.xml
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\obj\Debug\AppPlatform.DAL.csprojResolveAssemblyReference.cache
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\obj\Debug\AppPlatform.DAL.dll
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\obj\Debug\AppPlatform.DAL.pdb
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\obj\Debug\AppPlatform.DAL.csprojResolveAssemblyReference.cache
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\obj\Debug\AppPlatform.DAL.dll
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\obj\Debug\AppPlatform.DAL.pdb
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.DAL.dll.config
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.DAL.dll
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.DAL.pdb
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.IDAL.dll
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.Model.dll
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.IDAL.pdb
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.Model.pdb
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\bin\Debug\EntityFramework.xml
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.DAL.dll.config
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.DAL.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.DAL.pdb
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.IDAL.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.Model.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\bin\Debug\EntityFramework.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.IDAL.pdb
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.Model.pdb
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\bin\Debug\EntityFramework.xml
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\obj\Debug\AppPlatform.DAL.csprojResolveAssemblyReference.cache
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\obj\Debug\AppPlatform.DAL.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.DAL\obj\Debug\AppPlatform.DAL.pdb

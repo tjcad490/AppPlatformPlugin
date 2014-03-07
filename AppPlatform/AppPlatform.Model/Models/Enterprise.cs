@@ -8,6 +8,7 @@ namespace AppPlatform.Model.Models
     public partial class Enterprise
     {
         [Key]
+        
         [Required]
         [DisplayName("企业编号")]
         public int Enterprise_ID { get; set; }
@@ -46,6 +47,10 @@ namespace AppPlatform.Model.Models
         [EmailAddress]
         [DisplayName("企业邮箱")]
         public string Enterprise_Email { get; set; }
+        [Required]
+        [DisplayName("邮箱验证")]
+        public bool Checked { get; set; }
+
         [Required]
         [DisplayName("企业传真")]
         public string Enterprise_Fax { get; set; }

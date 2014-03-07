@@ -39,6 +39,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AppPlatform.DAL">
+      <HintPath>..\..\..\AppPlatform.DAL\bin\Debug\AppPlatform.DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="AppPlatform.IDAL">
+      <HintPath>..\..\..\AppPlatform.IDAL\bin\Debug\AppPlatform.IDAL.dll</HintPath>
+    </Reference>
+    <Reference Include="AppPlatform.Model">
+      <HintPath>..\..\..\AppPlatform.DAL\bin\Debug\AppPlatform.Model.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -368,6 +377,7 @@
     <Content Include="Manifest.xml" />
     <Content Include="Scripts\jquery-1.8.0.min.js" />
     <Content Include="Scripts\jquery.easyui.min.js" />
+    <Content Include="Scripts\Log.js" />
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>

@@ -26,7 +26,7 @@ namespace AppPlatform.DAL
 
             // 实现对数据库的添加功能,添加实现EF框架的引用
 
-            public T AddEntity(T entity)
+            public bool AddEntity(T entity)
             {
 
                 db.Set<T>().Attach(entity);
@@ -38,7 +38,7 @@ namespace AppPlatform.DAL
 
                 db.SaveChanges();
 
-                return entity;
+                return db.SaveChanges() > 0;
 
             }
 

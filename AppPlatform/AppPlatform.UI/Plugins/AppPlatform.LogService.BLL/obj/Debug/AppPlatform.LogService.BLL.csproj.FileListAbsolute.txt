@@ -14,3 +14,4 @@ F:\实验室项目\AppPlatformPlugin\AppPlatformPlugin\AppPlatform\AppPlatform.U
 F:\实验室项目\AppPlatformPlugin\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.LogService.BLL\obj\Debug\AppPlatform.LogService.BLL.dll
 F:\实验室项目\AppPlatformPlugin\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.LogService.BLL\obj\Debug\AppPlatform.LogService.BLL.pdb
 F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.LogService.BLL\bin\AppPlatform.LogService.BLL.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.LogService.BLL\obj\Debug\AppPlatform.LogService.BLL.csprojResolveAssemblyReference.cache

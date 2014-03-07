@@ -50,6 +50,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AppPlatform.DAL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AppPlatform.DAL\bin\Debug\AppPlatform.DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="AppPlatform.IDAL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AppPlatform.IDAL\bin\Debug\AppPlatform.IDAL.dll</HintPath>
+    </Reference>
+    <Reference Include="AppPlatform.Model, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AppPlatform.IDAL\bin\Debug\AppPlatform.Model.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\EntityFramework.6.0.2\lib\net45\EntityFramework.dll</HintPath>
@@ -97,18 +109,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AppPlatform.DAL\AppPlatform.DAL.csproj">
-      <Project>{cd97f16b-08c6-41ba-8ac1-377fbc4ac59d}</Project>
-      <Name>AppPlatform.DAL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\AppPlatform.IDAL\AppPlatform.IDAL.csproj">
-      <Project>{52cf0184-191e-4005-9b30-6eaec8d363fa}</Project>
-      <Name>AppPlatform.IDAL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\AppPlatform.Model\AppPlatform.Model.csproj">
-      <Project>{e23410d3-3039-4828-ba44-7e3658284812}</Project>
-      <Name>AppPlatform.Model</Name>
-    </ProjectReference>
     <ProjectReference Include="..\AppplatformCommon\AppplatformCommon.csproj">
       <Project>{45717637-ecd0-41b2-95e3-07e10039ef0b}</Project>
       <Name>AppplatformCommon</Name>

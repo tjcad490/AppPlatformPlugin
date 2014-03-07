@@ -12,7 +12,7 @@ namespace AppPlatform.IDAL
 
         // 实现对数据库的添加功能,添加实现EF框架的引用
 
-        T AddEntity(T entity);
+        bool AddEntity(T entity);
 
 
         //实现对数据库的修改功能

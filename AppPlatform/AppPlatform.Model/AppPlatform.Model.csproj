@@ -63,7 +63,7 @@
     <Compile Include="Models\Enterprise_App.cs" />
     <Compile Include="Models\Enterprise_EnterpriseClass.cs" />
     <Compile Include="Models\InternalOrganization.cs" />
-    <Compile Include="Models\Journal.cs" />
+    <Compile Include="Models\Log.cs" />
     <Compile Include="Models\Role.cs" />
     <Compile Include="Models\Group.cs" />
     <Compile Include="Models\TaskList.cs" />

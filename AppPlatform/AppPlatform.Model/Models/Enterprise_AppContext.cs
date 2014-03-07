@@ -37,6 +37,8 @@ namespace AppPlatform.Model.Models
         public DbSet<Function> Function { get; set; }
         public DbSet<Group_Function> Group_Function { get; set; }
         public DbSet<User_Task> User_Task { get; set; }
-        public DbSet<Journal> Journal { get; set; }
+        public DbSet<Log> Log { get; set; }
+
+        
     }
 }

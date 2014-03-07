@@ -30,11 +30,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AppPlatform.IDAL">
+      <HintPath>..\AppPlatform.IDAL\bin\Debug\AppPlatform.IDAL.dll</HintPath>
+    </Reference>
     <Reference Include="AppPlatform.Model">
       <HintPath>..\AppPlatform.Model\bin\Debug\AppPlatform.Model.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.6.0.2\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.0.2\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -60,7 +66,7 @@
     <Compile Include="Group_FunctionRepository.cs" />
     <Compile Include="InternalOrganizationRepository.cs" />
     <Compile Include="Internal_AuthorizationRepository.cs" />
-    <Compile Include="JournalRepository.cs" />
+    <Compile Include="LogRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RepositoryFactory.cs" />
     <Compile Include="RoleRepository.cs" />
@@ -74,12 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\AppPlatform.IDAL\AppPlatform.IDAL.csproj">
-      <Project>{52cf0184-191e-4005-9b30-6eaec8d363fa}</Project>
-      <Name>AppPlatform.IDAL</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

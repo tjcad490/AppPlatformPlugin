@@ -1,0 +1,48 @@
+F:\project\AppPlatformPlugin\AppPlatform\testmodel\bin\Debug\testmodel.exe.config
+F:\project\AppPlatformPlugin\AppPlatform\testmodel\bin\Debug\testmodel.exe
+F:\project\AppPlatformPlugin\AppPlatform\testmodel\bin\Debug\testmodel.pdb
+F:\project\AppPlatformPlugin\AppPlatform\testmodel\bin\Debug\AppPlatform.Model.dll
+F:\project\AppPlatformPlugin\AppPlatform\testmodel\bin\Debug\EntityFramework.dll
+F:\project\AppPlatformPlugin\AppPlatform\testmodel\bin\Debug\AppPlatform.Model.pdb
+F:\project\AppPlatformPlugin\AppPlatform\testmodel\bin\Debug\EntityFramework.xml
+F:\project\AppPlatformPlugin\AppPlatform\testmodel\obj\Debug\testmodel.exe
+F:\project\AppPlatformPlugin\AppPlatform\testmodel\obj\Debug\testmodel.pdb
+F:\project\AppPlatformPlugin\AppPlatform\testmodel\bin\Debug\EntityFramework.SqlServer.dll
+F:\project\AppPlatformPlugin\AppPlatform\testmodel\bin\Debug\EntityFramework.SqlServer.xml
+F:\project\AppPlatformPlugin\AppPlatform\testmodel\bin\Debug\AppPlatform.DAL.dll
+F:\project\AppPlatformPlugin\AppPlatform\testmodel\bin\Debug\AppPlatform.IDAL.dll
+F:\project\AppPlatformPlugin\AppPlatform\testmodel\bin\Debug\AppPlatform.DAL.pdb
+F:\project\AppPlatformPlugin\AppPlatform\testmodel\bin\Debug\AppPlatform.IDAL.pdb
+F:\project\AppPlatformPlugin\AppPlatform\testmodel\obj\Debug\testmodel.csprojResolveAssemblyReference.cache
+F:\project\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\testmodel.exe.config
+F:\project\AppPlatformPlugin-master\AppPlatform\testmodel\obj\Debug\testmodel.exe
+F:\project\AppPlatformPlugin-master\AppPlatform\testmodel\obj\Debug\testmodel.pdb
+F:\project\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\testmodel.exe
+F:\project\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\testmodel.pdb
+F:\project\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\AppPlatform.DAL.dll
+F:\project\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\AppPlatform.IDAL.dll
+F:\project\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\AppPlatform.Model.dll
+F:\project\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\EntityFramework.dll
+F:\project\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\EntityFramework.SqlServer.dll
+F:\project\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\AppPlatform.DAL.pdb
+F:\project\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\AppPlatform.IDAL.pdb
+F:\project\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\AppPlatform.Model.pdb
+F:\project\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\EntityFramework.xml
+F:\project\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\EntityFramework.SqlServer.xml
+F:\project\AppPlatformPlugin-master\AppPlatform\testmodel\obj\Debug\testmodel.csprojResolveAssemblyReference.cache
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\testmodel.exe.config
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\testmodel\obj\Debug\testmodel.exe
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\testmodel\obj\Debug\testmodel.pdb
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\testmodel.exe
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\testmodel.pdb
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\AppPlatform.DAL.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\AppPlatform.IDAL.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\AppPlatform.Model.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\EntityFramework.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\AppPlatform.DAL.pdb
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\AppPlatform.IDAL.pdb
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\AppPlatform.Model.pdb
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\EntityFramework.xml
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\testmodel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\testmodel\obj\Debug\testmodel.csprojResolveAssemblyReference.cache

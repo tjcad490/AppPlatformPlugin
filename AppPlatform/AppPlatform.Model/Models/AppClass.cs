@@ -17,6 +17,10 @@ namespace AppPlatform.Model.Models
         [DisplayName("分类名称")]
         public string AppClass_Name { get; set; }
 
+        [Required]
+        [DisplayName("上级分类ID")]
+        public int AppClass_PID { get; set; }
+
         [DisplayName("备注")]
         public string AppClass_Note { get; set; }
 

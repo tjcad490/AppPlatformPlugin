@@ -35,6 +35,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AppPlatform.DAL">
+      <HintPath>..\..\..\AppPlatform.DAL\bin\Debug\AppPlatform.DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="AppPlatform.IDAL">
+      <HintPath>..\..\..\AppPlatform.IDAL\bin\Debug\AppPlatform.IDAL.dll</HintPath>
+    </Reference>
+    <Reference Include="AppPlatform.Model">
+      <HintPath>..\..\..\AppPlatform.IDAL\bin\Debug\AppPlatform.Model.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -47,6 +56,7 @@
     <Compile Include="Activator.cs" />
     <Compile Include="ILogService.cs" />
     <Compile Include="Impl\LogService.cs" />
+    <Compile Include="LogService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

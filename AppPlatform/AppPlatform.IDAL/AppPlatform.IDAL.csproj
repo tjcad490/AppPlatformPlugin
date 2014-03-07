@@ -35,9 +35,8 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\EntityFramework.6.0.2\lib\net45\EntityFramework.dll</HintPath>
+    <Reference Include="AppPlatform.Model">
+      <HintPath>..\AppPlatform.Model\bin\Debug\AppPlatform.Model.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -63,7 +62,7 @@
     <Compile Include="IGroup_FunctionRepository.cs" />
     <Compile Include="IInternalOrganizationRepository.cs" />
     <Compile Include="IInternal_AuthorizationRepository.cs" />
-    <Compile Include="IJournalRepository.cs" />
+    <Compile Include="ILogRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="IRoleRepository.cs" />
@@ -77,12 +76,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\AppPlatform.Model\AppPlatform.Model.csproj">
-      <Project>{e23410d3-3039-4828-ba44-7e3658284812}</Project>
-      <Name>AppPlatform.Model</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

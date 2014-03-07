@@ -131,9 +131,9 @@ namespace AppPlatform.DAL
             get { return new User_TaskRepository(); }
         }
 
-        public static IJournalRepository JournalRepository
+        public static ILogRepository LogRepository
         {
-            get { return new JournalRepository(); }
+            get { return new LogRepository(); }
         }
 
     }

@@ -12,12 +12,35 @@
     <link href="~/Content/themes/icon.css" rel="stylesheet" />
     <script src="~/Scripts/jquery-1.8.0.min.js"></script>
     <script src="~/Scripts/jquery.easyui.min.js"></script>
+    <script>
+        function SearchLog() {
+
+            alert("hello world");
+            $(function () {
+                $("#Search").submit(function () {
+                    var LogType = $("#LogType").val();
+                    var StartTime = $("#StartTime").val();
+                    var EndTime = $("#EndTime").val();
+                    $.post(
+                      "LogManagerController.cs",
+                      {
+                          arr: LogType + "," + StartTime + "," + EndTime
+                      });
+                    return false;
+
+                })
+            })
+        }
+          
+          
+    </script>
 </head>
 <body>
 <div  data-options="fit:true,border:false">
-    <table class="easyui-datagrid" 
+   <table class="easyui-datagrid" 
             data-options="rownumbers:true,singleSelect:true,url:'datagrid_data1.json',method:'get',toolbar:'#tb',pagination:true,
                 pageSize:10">
+        
         <thead>
             <tr>
                 <th data-options="field:'LogName',width:100,align:'center'">日志名称</th>
@@ -27,14 +50,31 @@
                 <th data-options="field:'LogContent',width:500,align:'center'">日志内容</th>
             </tr>
         </thead>
+       <tbody>
+        <tr>
+            <td>001</td><td>name1</td><td>2323</td>
+        </tr>
+        <tr>
+            <td>002</td><td>name2</td><td>4612</td>
+        </tr>
+    </tbody>
     </table>
     <div id="tb" style="padding:5px;height:auto">
         <div style="margin-bottom:5px">
             <a href="#" class="easyui-linkbutton" iconCls="icon-remove" plain="true">删除</a>
+
+
+            <select id="LogType" class="easyui-combobox" name="dept"  >
+               <option value="all">全部</option>
+               <option value="system">系统日志</option>
+               <option value="operation">操作日志</option>
+           </select>
+
              <span>
-            开始时间: <input class="easyui-datebox" style="width:80px"/>
-            结束时间: <input class="easyui-datebox" style="width:80px"/>
-            <a href="#" class="easyui-linkbutton" iconCls="icon-search">搜索</a>
+            开始时间: <input class="easyui-datebox" id="LogStartTime" style="width:80px"/>
+            结束时间: <input class="easyui-datebox" id="LogEndTime" style="width:80px"/>
+                 
+            <a href="#" id="Search" class="easyui-linkbutton" iconCls="icon-search" onclick="SearchLog()">搜索</a>
         </span>
         </div>
     </div>

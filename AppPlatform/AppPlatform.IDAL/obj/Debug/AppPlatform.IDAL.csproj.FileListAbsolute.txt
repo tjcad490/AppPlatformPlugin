@@ -18,13 +18,22 @@ C:\Users\chen\Desktop\AppPlatformPlugin\AppPlatformPlugin\AppPlatform\AppPlatfor
 C:\Users\chen\Desktop\AppPlatformPlugin\AppPlatformPlugin\AppPlatform\AppPlatform.IDAL\obj\Debug\AppPlatform.IDAL.csprojResolveAssemblyReference.cache
 C:\Users\chen\Desktop\AppPlatformPlugin\AppPlatformPlugin\AppPlatform\AppPlatform.IDAL\obj\Debug\AppPlatform.IDAL.dll
 C:\Users\chen\Desktop\AppPlatformPlugin\AppPlatformPlugin\AppPlatform\AppPlatform.IDAL\obj\Debug\AppPlatform.IDAL.pdb
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.IDAL\bin\Debug\AppPlatform.IDAL.dll.config
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.IDAL\bin\Debug\AppPlatform.IDAL.dll
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.IDAL\bin\Debug\AppPlatform.IDAL.pdb
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.IDAL\bin\Debug\AppPlatform.Model.dll
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.IDAL\bin\Debug\EntityFramework.dll
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.IDAL\bin\Debug\AppPlatform.Model.pdb
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.IDAL\bin\Debug\EntityFramework.xml
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.IDAL\obj\Debug\AppPlatform.IDAL.csprojResolveAssemblyReference.cache
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.IDAL\obj\Debug\AppPlatform.IDAL.dll
-F:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.IDAL\obj\Debug\AppPlatform.IDAL.pdb
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.IDAL\obj\Debug\AppPlatform.IDAL.csprojResolveAssemblyReference.cache
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.IDAL\obj\Debug\AppPlatform.IDAL.dll
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.IDAL\obj\Debug\AppPlatform.IDAL.pdb
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.IDAL\bin\Debug\AppPlatform.IDAL.dll.config
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.IDAL\bin\Debug\AppPlatform.IDAL.dll
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.IDAL\bin\Debug\AppPlatform.IDAL.pdb
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.IDAL\bin\Debug\AppPlatform.Model.dll
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.IDAL\bin\Debug\EntityFramework.dll
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.IDAL\bin\Debug\AppPlatform.Model.pdb
+F:\project\AppPlatformPlugin-master\AppPlatform\AppPlatform.IDAL\bin\Debug\EntityFramework.xml
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.IDAL\bin\Debug\AppPlatform.IDAL.dll.config
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.IDAL\bin\Debug\AppPlatform.IDAL.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.IDAL\bin\Debug\AppPlatform.IDAL.pdb
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.IDAL\bin\Debug\AppPlatform.Model.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.IDAL\bin\Debug\EntityFramework.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.IDAL\bin\Debug\AppPlatform.Model.pdb
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.IDAL\bin\Debug\EntityFramework.xml
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.IDAL\obj\Debug\AppPlatform.IDAL.dll
+C:\Users\yy\Downloads\AppPlatformPlugin-master (1)\AppPlatformPlugin-master\AppPlatform\AppPlatform.IDAL\obj\Debug\AppPlatform.IDAL.pdb
