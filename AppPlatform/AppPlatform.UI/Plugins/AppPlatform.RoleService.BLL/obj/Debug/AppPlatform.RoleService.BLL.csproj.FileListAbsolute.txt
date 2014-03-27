@@ -10,3 +10,9 @@ F:\project\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.Role
 F:\project\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.RoleService.BLL\obj\Debug\AppPlatform.RoleService.BLL.csprojResolveAssemblyReference.cache
 F:\project\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.RoleService.BLL\obj\Debug\AppPlatform.RoleService.BLL.dll
 F:\project\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.RoleService.BLL\obj\Debug\AppPlatform.RoleService.BLL.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.RoleService.BLL\bin\AppPlatform.RoleService.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.RoleService.BLL\bin\AppPlatform.RoleService.BLL.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.RoleService.BLL\bin\UIShell.OSGi.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.RoleService.BLL\obj\Debug\AppPlatform.RoleService.BLL.csprojResolveAssemblyReference.cache
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.RoleService.BLL\obj\Debug\AppPlatform.RoleService.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.RoleService.BLL\obj\Debug\AppPlatform.RoleService.BLL.pdb

@@ -1,14 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using AppPlatform.DAL;
+using AppPlatform.IDAL;
+using AppPlatform.Model.Models;
+using System.Linq;
 
 namespace AppPlatform.GroupService.BLL
 {
     public class GroupService : IGroupService
     {
-        public void GroupListGet()
+        //自己修改获取方法
+        public List<Model.Models.Group> GroupListGet()
         {
-            throw new NotImplementedException();
+            IGroupRepository _groupRepository = RepositoryFactory.GroupRepository;
+            List<Group> grouplist = _groupRepository.LoadEntities(Group => Group.Group_ID >= 0).ToList<Group>();
+            return grouplist;
         }
 
         public void GroupInfoGet(object GroupID)
@@ -16,19 +23,23 @@ namespace AppPlatform.GroupService.BLL
             throw new NotImplementedException();
         }
 
-        public bool GroupAdd(object Group)
+        public bool GroupAdd(Group group)
         {
-            throw new NotImplementedException();
+            IGroupRepository _groupRepository = RepositoryFactory.GroupRepository;
+            return _groupRepository.AddEntity(group);
         }
 
-        public bool GroupUpdate(object Group)
+        public bool GroupUpdate(Group group)
         {
-            throw new NotImplementedException();
+            IGroupRepository _groupRepository = RepositoryFactory.GroupRepository;
+            return _groupRepository.UpdateEntity(group);
         }
 
-        public bool GroupDelete(object GroupID)
+        public bool GroupDelete(int GroupID)
         {
-            throw new NotImplementedException();
+            IGroupRepository _groupRepository = RepositoryFactory.GroupRepository;
+            Group group = _groupRepository.LoadEntities(Group => Group.Group_ID == GroupID).FirstOrDefault();
+            return _groupRepository.DeleteEntity(group);
         }
     }
 }

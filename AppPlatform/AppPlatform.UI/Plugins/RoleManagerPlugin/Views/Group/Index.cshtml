@@ -6,12 +6,184 @@
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
+	<title>用户组管理</title>
+    <link href="~/Content/themes/default/easyui.css" rel="stylesheet" />
+    <link href="~/Content/themes/icon.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.8.0.min.js"></script>
+    <script src="~/Scripts/jquery.easyui.min.js"></script>
+    <script type="text/javascript">
+        var editIndex = undefined;
+        function onClick(index) {
+            editIndex = index;
+        }
+        function newGroup() {
+            $('#dlgNew').dialog('open').dialog('setTitle', '新建用户组');
+            $('#fmNew').form('clear');
+            //url = 'role.json';
+        }
+        function editGroup() {
+            var row = $('#dg').datagrid('getSelected');
+            if (row) {
+                $('#dlgEdit').dialog('open').dialog('setTitle', '权限修改');
+                $('#fmEdit').form('load', row);
+            }
+        }
+        function saveNewGroup() {
+            $('#fmNew').form('submit', {
+                url:'@Url.Action("AddNewGroup")',
+                onSubmit: function () {
+                    return $(this).form('validate');
+                },
+                success: function (result) {
+                    if (result) {
+                        $('#dlgNew').dialog("close");
+                        $('#dg').datagrid("reload");
+                    }
+                    else {
+                        alert("用户组添加失败");
+                    }
+                }
+            });
+        }
+        function saveGroupEdit() {
+            $('#fmEdit').form('submit', {
+                url:'@Url.Action("SaveGroupEdit")',
+                onSubmit: function () {
+                    return $(this).form('validate');
+                },
+                success: function (result) {
+                    if (result) {
+                        $('#dlgEdit').dialog("close");
+                        $('#dg').datagrid("reload");
+                    }
+                    else {
+                        alert("用户组添加失败")
+                    }
+                }
+            });
+        }
+        function destroyGroup() {
+            if (editIndex == undefined) { return }
+            var row = $('#dg').datagrid('getSelected');
+            if (row) {
+                $.messager.confirm('确认', '确定删除该用户组?', function (r) {
+                    if (r) {
+                        $.post('DestroyGroup?id=' + row.Group_ID, function (result) {
+                            if (result == "True") {
+                                $('#dg').datagrid('reload');    // reload the user data
+                            } else {
+                                $.messager.show({    // show error message
+                                    title: 'Error',
+                                    msg: '删除错误'
+                                });
+                            }
+                        });
+                    }
+                });
+            }
+        }
+        $(function () {
+            $('#dg').datagrid({
+                url: '@Url.Action("jsondata")',
+                method:'get'
+            });
+        })
+    </script>
+    <style type="text/css">
+        #fm{
+            margin:0;
+            padding:10px 30px;
+        }
+        .ftitle{
+            font-size:14px;
+            font-weight:bold;
+            padding:5px 0;
+            margin-bottom:10px;
+            border-bottom:1px solid #ccc;
+        }
+        .fitem{
+            margin-bottom:5px;
+        }
+        .fitem label{
+            display:inline-block;
+            width:80px;
+        }
+    </style>
 </head>
 <body>
-    <div>
-        用户组管理
+    <div style="width:100%">
+    <table id="dg" title="用户组列表" class="easyui-datagrid"
+            method="get" data-options="onClickRow:onClick"
+            toolbar="#toolbar" pagination="true"
+            rownumbers="true" fitColumns="true" singleSelect="true">
+        <thead>
+            <tr>
+                <th field="Group_ID" width="10%">用户组ID</th>
+                <th field="Group_Name" width="20%">用户组名</th>
+                <th field="Group_Desc" width="40%">用户组描述</th>
+                <th field="Group_Note" width="30%">备注</th>
+            </tr>
+        </thead>
+    </table>
+    <div id="toolbar">
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="newGroup()">添加用户组</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-edit" plain="true" onclick="editGroup()">权限修改</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-remove" plain="true" onclick="destroyGroup()">删除用户组</a>
     </div>
+
+    <div id="dlgNew" class="easyui-dialog" style="width:400px;padding:10px 20px"
+            closed="true" buttons="#dlg-buttons">
+        <div class="ftitle">用户组信息</div>
+        <form id="fmNew" method="post" novalidate>
+            <div class="fitem">
+                <label for="Group_Name1">用户组名:</label>
+                <input name="Group_Name1" class="easyui-validatebox" data-options="required:true">
+            </div>
+            <div class="fitem">
+                <label for="Group_Desc1">用户组描述:</label>
+                <input name="Group_Desc1" class="easyui-validatebox" data-options="required:true">
+            </div>
+            <div class="fitem">
+                <label for="Group_Note1">备注:</label>
+                <textarea name="Group_Note1" style="width:230px"></textarea>
+            </div>
+        </form>
+    </div>
+    <div id="dlg-buttons">
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-ok" onclick="saveNewGroup()">添加</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-cancel" onclick="javascript:$('#dlg').dialog('close')">取消</a>
+    </div>
+
+    <div id="dlgEdit" class="easyui-dialog" style="width:400px;padding:10px 20px"
+            closed="true" buttons="#dlg-buttons2">
+        <div class="ftitle">用户组信息</div>
+        <form id="fmEdit" method="post" novalidate>
+            <div class="fitem">
+                <label for="Group_ID">用户组ID:</label>
+                <input name="Group_ID" class="easyui-validatebox" data-options="required:true" readonly="true" style="border:none">
+            </div>
+            <div class="fitem">
+                <label for="Group_Name">用户组名:</label>
+                <input name="Group_Name" class="easyui-validatebox" data-options="required:true">
+            </div>
+            <div class="fitem">
+                <label for="Group_Desc">用户组描述:</label>
+                <input name="Group_Desc" class="easyui-validatebox" data-options="required:true">
+            </div>
+            <div class="fitem">
+                <label for="Group_Note">备注:</label>
+                <textarea name="Group_Note" style="width:230px"></textarea>
+            </div>
+        </form>
+    </div>
+    <div id="dlg-buttons2">
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-ok" onclick="saveGroupEdit()">修改</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-cancel" onclick="javascript:$('#dlg2').dialog('close')">取消</a>
+    </div>
+    
+    </div>
+
+    
+
 </body>
 </html>

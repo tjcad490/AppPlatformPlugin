@@ -8,3 +8,9 @@ F:\project\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.Grou
 F:\project\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.GroupPermissionService.BLL\bin\UIShell.OSGi.dll
 F:\project\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.GroupPermissionService.BLL\obj\Debug\AppPlatform.GroupPermissionService.BLL.dll
 F:\project\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.GroupPermissionService.BLL\obj\Debug\AppPlatform.GroupPermissionService.BLL.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.GroupPermissionService.BLL\bin\AppPlatform.GroupPermissionService.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.GroupPermissionService.BLL\bin\AppPlatform.GroupPermissionService.BLL.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.GroupPermissionService.BLL\bin\UIShell.OSGi.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.GroupPermissionService.BLL\obj\Debug\AppPlatform.GroupPermissionService.BLL.csprojResolveAssemblyReference.cache
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.GroupPermissionService.BLL\obj\Debug\AppPlatform.GroupPermissionService.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.GroupPermissionService.BLL\obj\Debug\AppPlatform.GroupPermissionService.BLL.pdb

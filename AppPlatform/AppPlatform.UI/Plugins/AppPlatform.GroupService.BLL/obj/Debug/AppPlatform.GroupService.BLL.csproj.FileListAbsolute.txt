@@ -8,3 +8,9 @@ F:\project\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.Grou
 F:\project\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.GroupService.BLL\bin\UIShell.OSGi.dll
 F:\project\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.GroupService.BLL\obj\Debug\AppPlatform.UserGuopService.BLL.dll
 F:\project\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.GroupService.BLL\obj\Debug\AppPlatform.UserGuopService.BLL.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.GroupService.BLL\obj\Debug\AppPlatform.GroupService.BLL.csprojResolveAssemblyReference.cache
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.GroupService.BLL\obj\Debug\AppPlatform.UserGuopService.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.GroupService.BLL\obj\Debug\AppPlatform.UserGuopService.BLL.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.GroupService.BLL\bin\AppPlatform.UserGuopService.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.GroupService.BLL\bin\UIShell.OSGi.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.GroupService.BLL\bin\AppPlatform.UserGuopService.BLL.pdb

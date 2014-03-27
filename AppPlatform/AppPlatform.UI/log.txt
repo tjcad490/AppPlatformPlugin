@@ -9999,3 +9999,858 @@ Thu, 27 Mar 2014 20:21:22 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   L
 Thu, 27 Mar 2014 20:21:22 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'LogManager' from bundle 'LogManagerPlugin' by using cache.
 Thu, 27 Mar 2014 20:21:22 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_caakxt2j, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
 Thu, 27 Mar 2014 20:21:22 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load controller 'LogManager' since the plugin name is not specified.
+Thu, 27 Mar 2014 20:49:33 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   WebSite is starting.
+Thu, 27 Mar 2014 20:49:33 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.OSGi, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261 to top level referenced assemblies.'
+Thu, 27 Mar 2014 20:49:33 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.OSGi.MvcCore, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 20:49:33 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Framework is starting.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Can not load assembly 'bin\LogPlugin.dll' for bundle 'LogPlugin, 1.0.0.0', Exception: 'Can not find file: bin\LogPlugin.dll under G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\BlogPlugin'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.OSGi.XmlSerializers, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppManagerPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   The bundle 'LogPlugin, 1.0.0.0' can not be resolved since the local assembly 'bin\LogPlugin.dll' can not be loaded.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppManagerPlugin, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'LogManagerPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'LogManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'LogManagerPlugin, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'EnterpriseManagerPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'EnterpriseManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'EnterpriseManagerPlugin, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'LogPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   The bundle 'LogPlugin, 1.0.0.0' can not be resolved since the local assembly 'bin\LogPlugin.dll' can not be loaded.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Start the bundle 'LogPlugin, 1.0.0.0' failed.
+Thu, 27 Mar 2014 20:49:34 GMT|***|FrameworkThread|UIShell.OSGi.Logger|   |ErrorUIShell.OSGi.BundleException: The bundle 'LogPlugin, 1.0.0.0' is started failed since it can not be resolved.
+   在 UIShell.OSGi.Core.Bundle.HostBundle.DoStart(BundleStartOptions option)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.S7W6w4aZGT060CEYZpk(Object , BundleStartOptions option)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.<Start>b__1()
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.vlpQN6s604cpMAUUVeS(Object )
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.DoLifecycleAction(Action action, String actionName)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.Start(BundleStartOptions option)
+   在 UIShell.OSGi.Core.Service.Impl.StartLevelManager.Foi37JOME9osZphcqUL(Object , BundleStartOptions option)
+   在 UIShell.OSGi.Core.Service.Impl.StartLevelManager.ChangeStartLevel(Int32 startLevel)
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserRoleService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 20:49:34 GMT|***|EventDispatcherThread|UIShell.OSGi.Logger|   |ErrorUIShell.OSGi.BundleException: The bundle 'LogPlugin, 1.0.0.0' is started failed since it can not be resolved.
+   在 UIShell.OSGi.Core.Bundle.HostBundle.DoStart(BundleStartOptions option)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.S7W6w4aZGT060CEYZpk(Object , BundleStartOptions option)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.<Start>b__1()
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.vlpQN6s604cpMAUUVeS(Object )
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.DoLifecycleAction(Action action, String actionName)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.Start(BundleStartOptions option)
+   在 UIShell.OSGi.Core.Service.Impl.StartLevelManager.Foi37JOME9osZphcqUL(Object , BundleStartOptions option)
+   在 UIShell.OSGi.Core.Service.Impl.StartLevelManager.ChangeStartLevel(Int32 startLevel)
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.UserRoleService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserRoleService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserInformationService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.UserInformationService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserInformationService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserAccountService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.UserAccountService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserAccountService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.RoleService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.RoleService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.RoleService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.RolePermissionService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.RolePermissionService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.RolePermissionService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'Appplatform.LogService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Appplatform.LogService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'Appplatform.LogService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.GroupService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.UserGuopService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.GroupService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 20:49:34 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.GroupPermissionService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.GroupPermissionService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.GroupPermissionService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatForm.EnterpriseOrganService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatForm.EnterpriseOrganService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatForm.EnterpriseOrganService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseMenuService.bll, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.EnterpriseMenuService.bll, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseMenuService.bll, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseInfoService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.EnterpriseInfoService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseInfoService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseClassService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.EnterpriseClassService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseClassService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppStoreService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.AppStoreService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppStoreService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppReleaseService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.AppReleaseService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppReleaseService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppOrderService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.AppOrderService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppOrderService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppInfoService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.AppInfoService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppInfoService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'RoleManagerPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'RoleManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'RoleManagerPlugin, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UserManagerPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UserManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UserManagerPlugin, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppManagerPlugin
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.AppInfoService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.AppInfoService.BLL
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.AppOrderService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.AppOrderService.BLL
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.AppReleaseService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.AppReleaseService.BLL
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.AppStoreService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.AppStoreService.BLL
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.EnterpriseClassService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.EnterpriseClassService.BLL
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.EnterpriseInfoService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.EnterpriseInfoService.BLL
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.EnterpriseMenuService.bll, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.EnterpriseMenuService.bll
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatForm.EnterpriseOrganService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatForm.EnterpriseOrganService.BLL
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.GroupPermissionService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.GroupPermissionService.BLL
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.UserGuopService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.GroupService.BLL
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'Appplatform.LogService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle Appplatform.LogService.BLL
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.RolePermissionService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.RolePermissionService.BLL
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.RoleService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.RoleService.BLL
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.UserAccountService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.UserAccountService.BLL
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.UserInformationService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.UserInformationService.BLL
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.UserRoleService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.UserRoleService.BLL
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle LogPlugin
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'EnterpriseManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle EnterpriseManagerPlugin
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'LogManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle LogManagerPlugin
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'RoleManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle RoleManagerPlugin
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'UserManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle UserManagerPlugin
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Framework is started.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.VisualStudio.Web.PageInspector.Runtime, Version=1.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_global.asax.p4xdr8bd, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ServiceModel.Activation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'NServiceBus, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.IDAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.LoginService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.RegisterServie.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:35 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.Extension, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:36 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppplatformCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:36 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 20:49:36 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 20:49:36 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 20:49:36 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 20:49:36 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 20:49:36 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Raven.Abstractions, Version=2.0.3.0, Culture=neutral, PublicKeyToken=37f41c7f99471593'.
+Thu, 27 Mar 2014 20:49:36 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Raven.Abstractions, Version=2.0.3.0, Culture=neutral, PublicKeyToken=37f41c7f99471593'.
+Thu, 27 Mar 2014 20:49:36 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Raven.Client.Lightweight, Version=2.0.3.0, Culture=neutral, PublicKeyToken=37f41c7f99471593'.
+Thu, 27 Mar 2014 20:49:36 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Raven.Client.Lightweight, Version=2.0.3.0, Culture=neutral, PublicKeyToken=37f41c7f99471593'.
+Thu, 27 Mar 2014 20:49:36 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:36 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 20:49:36 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.Contracts.Commands.RegistryService__impl, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:37 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 20:49:37 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 20:49:37 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 20:49:37 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 20:49:37 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 20:49:47 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 20:49:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'mscorlib.XmlSerializers, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 20:49:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 20:49:53 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 20:49:53 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 20:49:53 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.
+Thu, 27 Mar 2014 20:49:53 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'SMDiagnostics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 20:49:54 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 20:49:54 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ServiceModel.Internals, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 20:49:54 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 20:49:54 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.RegularExpressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 20:49:54 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load controller 'Account' since the plugin name is not specified.
+Thu, 27 Mar 2014 20:49:54 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_4kmopwxv, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:54 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_oiueojvv, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 20:49:54 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Dynamic, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 20:50:03 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load controller 'Account' since the plugin name is not specified.
+Thu, 27 Mar 2014 20:50:03 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Data.OracleClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 20:50:03 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ComponentModel.DataAnnotations.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 20:50:05 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh-CN, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 20:50:05 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh-CN, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 20:50:05 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh-CHS, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 20:50:05 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh-CHS, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 20:50:05 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 20:50:05 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 20:50:05 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 20:50:05 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 20:50:06 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'EntityFrameworkDynamicProxies-AppPlatform.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:42 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   WebSite is starting.
+Thu, 27 Mar 2014 21:00:42 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.OSGi, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261 to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:00:42 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.OSGi.MvcCore, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:00:42 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Framework is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Can not load assembly 'bin\LogPlugin.dll' for bundle 'LogPlugin, 1.0.0.0', Exception: 'Can not find file: bin\LogPlugin.dll under G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\BlogPlugin'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.OSGi.XmlSerializers, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppManagerPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   The bundle 'LogPlugin, 1.0.0.0' can not be resolved since the local assembly 'bin\LogPlugin.dll' can not be loaded.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppManagerPlugin, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'LogManagerPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'LogManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'LogManagerPlugin, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'EnterpriseManagerPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'EnterpriseManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'EnterpriseManagerPlugin, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'LogPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   The bundle 'LogPlugin, 1.0.0.0' can not be resolved since the local assembly 'bin\LogPlugin.dll' can not be loaded.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Start the bundle 'LogPlugin, 1.0.0.0' failed.
+Thu, 27 Mar 2014 21:00:43 GMT|***|FrameworkThread|UIShell.OSGi.Logger|   |ErrorUIShell.OSGi.BundleException: The bundle 'LogPlugin, 1.0.0.0' is started failed since it can not be resolved.
+   在 UIShell.OSGi.Core.Bundle.HostBundle.DoStart(BundleStartOptions option)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.S7W6w4aZGT060CEYZpk(Object , BundleStartOptions option)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.<Start>b__1()
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.vlpQN6s604cpMAUUVeS(Object )
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.DoLifecycleAction(Action action, String actionName)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.Start(BundleStartOptions option)
+   在 UIShell.OSGi.Core.Service.Impl.StartLevelManager.Foi37JOME9osZphcqUL(Object , BundleStartOptions option)
+   在 UIShell.OSGi.Core.Service.Impl.StartLevelManager.ChangeStartLevel(Int32 startLevel)
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserRoleService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|***|EventDispatcherThread|UIShell.OSGi.Logger|   |ErrorUIShell.OSGi.BundleException: The bundle 'LogPlugin, 1.0.0.0' is started failed since it can not be resolved.
+   在 UIShell.OSGi.Core.Bundle.HostBundle.DoStart(BundleStartOptions option)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.S7W6w4aZGT060CEYZpk(Object , BundleStartOptions option)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.<Start>b__1()
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.vlpQN6s604cpMAUUVeS(Object )
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.DoLifecycleAction(Action action, String actionName)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.Start(BundleStartOptions option)
+   在 UIShell.OSGi.Core.Service.Impl.StartLevelManager.Foi37JOME9osZphcqUL(Object , BundleStartOptions option)
+   在 UIShell.OSGi.Core.Service.Impl.StartLevelManager.ChangeStartLevel(Int32 startLevel)
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.UserRoleService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserRoleService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserInformationService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.UserInformationService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserInformationService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserAccountService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.UserAccountService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserAccountService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.RoleService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.RoleService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.RoleService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.RolePermissionService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.RolePermissionService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.RolePermissionService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'Appplatform.LogService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Appplatform.LogService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'Appplatform.LogService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.GroupService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.UserGuopService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.GroupService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.GroupPermissionService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.GroupPermissionService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.GroupPermissionService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatForm.EnterpriseOrganService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatForm.EnterpriseOrganService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatForm.EnterpriseOrganService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseMenuService.bll, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.EnterpriseMenuService.bll, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseMenuService.bll, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseInfoService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.EnterpriseInfoService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseInfoService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseClassService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.EnterpriseClassService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseClassService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppStoreService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.AppStoreService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppStoreService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppReleaseService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.AppReleaseService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppReleaseService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppOrderService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.AppOrderService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppOrderService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppInfoService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.AppInfoService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppInfoService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'RoleManagerPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'RoleManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'RoleManagerPlugin, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UserManagerPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UserManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UserManagerPlugin, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppManagerPlugin
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.AppInfoService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.AppInfoService.BLL
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.AppOrderService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.AppOrderService.BLL
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.AppReleaseService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.AppReleaseService.BLL
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.AppStoreService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.AppStoreService.BLL
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.EnterpriseClassService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.EnterpriseClassService.BLL
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.EnterpriseInfoService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.EnterpriseInfoService.BLL
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.EnterpriseMenuService.bll, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.EnterpriseMenuService.bll
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatForm.EnterpriseOrganService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatForm.EnterpriseOrganService.BLL
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.GroupPermissionService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.GroupPermissionService.BLL
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.UserGuopService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.GroupService.BLL
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'Appplatform.LogService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle Appplatform.LogService.BLL
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.RolePermissionService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.RolePermissionService.BLL
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.RoleService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.RoleService.BLL
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.UserAccountService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.UserAccountService.BLL
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.UserInformationService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.UserInformationService.BLL
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.UserRoleService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.UserRoleService.BLL
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle LogPlugin
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'EnterpriseManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle EnterpriseManagerPlugin
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'LogManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle LogManagerPlugin
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'RoleManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle RoleManagerPlugin
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'UserManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle UserManagerPlugin
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Framework is started.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.VisualStudio.Web.PageInspector.Runtime, Version=1.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.IdentityModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ServiceModel.Activation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ServiceModel.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.WorkflowServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.DynamicData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Antlr3.Runtime, Version=3.3.1.7705, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.IDAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.LoginService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.RegisterServie.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppplatformCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'NServiceBus, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.Providers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:00:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.Extension, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:00:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'WebGrease, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:00:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:00:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.Build.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:00:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.Build.Tasks.v4.0.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:00:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:00:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:00:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:00:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ComponentModel.Composition, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:02:22 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   WebSite is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.OSGi, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261 to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:02:25 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.OSGi.MvcCore, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:02:25 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Framework is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Can not load assembly 'bin\LogPlugin.dll' for bundle 'LogPlugin, 1.0.0.0', Exception: 'Can not find file: bin\LogPlugin.dll under G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\BlogPlugin'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.OSGi.XmlSerializers, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppManagerPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   The bundle 'LogPlugin, 1.0.0.0' can not be resolved since the local assembly 'bin\LogPlugin.dll' can not be loaded.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppManagerPlugin, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'LogManagerPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'LogManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'LogManagerPlugin, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'EnterpriseManagerPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'EnterpriseManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'EnterpriseManagerPlugin, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'LogPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   The bundle 'LogPlugin, 1.0.0.0' can not be resolved since the local assembly 'bin\LogPlugin.dll' can not be loaded.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Start the bundle 'LogPlugin, 1.0.0.0' failed.
+Thu, 27 Mar 2014 21:02:25 GMT|***|FrameworkThread|UIShell.OSGi.Logger|   |ErrorUIShell.OSGi.BundleException: The bundle 'LogPlugin, 1.0.0.0' is started failed since it can not be resolved.
+   在 UIShell.OSGi.Core.Bundle.HostBundle.DoStart(BundleStartOptions option)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.S7W6w4aZGT060CEYZpk(Object , BundleStartOptions option)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.<Start>b__1()
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.vlpQN6s604cpMAUUVeS(Object )
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.DoLifecycleAction(Action action, String actionName)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.Start(BundleStartOptions option)
+   在 UIShell.OSGi.Core.Service.Impl.StartLevelManager.Foi37JOME9osZphcqUL(Object , BundleStartOptions option)
+   在 UIShell.OSGi.Core.Service.Impl.StartLevelManager.ChangeStartLevel(Int32 startLevel)
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserRoleService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|***|EventDispatcherThread|UIShell.OSGi.Logger|   |ErrorUIShell.OSGi.BundleException: The bundle 'LogPlugin, 1.0.0.0' is started failed since it can not be resolved.
+   在 UIShell.OSGi.Core.Bundle.HostBundle.DoStart(BundleStartOptions option)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.S7W6w4aZGT060CEYZpk(Object , BundleStartOptions option)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.<Start>b__1()
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.vlpQN6s604cpMAUUVeS(Object )
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.DoLifecycleAction(Action action, String actionName)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.Start(BundleStartOptions option)
+   在 UIShell.OSGi.Core.Service.Impl.StartLevelManager.Foi37JOME9osZphcqUL(Object , BundleStartOptions option)
+   在 UIShell.OSGi.Core.Service.Impl.StartLevelManager.ChangeStartLevel(Int32 startLevel)
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.UserRoleService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserRoleService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserInformationService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.UserInformationService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserInformationService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserAccountService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.UserAccountService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserAccountService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.RoleService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.RoleService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.RoleService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.RolePermissionService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.RolePermissionService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.RolePermissionService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'Appplatform.LogService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Appplatform.LogService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'Appplatform.LogService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.GroupService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.UserGuopService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.GroupService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.GroupPermissionService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.GroupPermissionService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.GroupPermissionService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatForm.EnterpriseOrganService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatForm.EnterpriseOrganService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatForm.EnterpriseOrganService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseMenuService.bll, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.EnterpriseMenuService.bll, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseMenuService.bll, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseInfoService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.EnterpriseInfoService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseInfoService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseClassService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.EnterpriseClassService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseClassService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppStoreService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.AppStoreService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppStoreService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppReleaseService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.AppReleaseService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppReleaseService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppOrderService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.AppOrderService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppOrderService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppInfoService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.AppInfoService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppInfoService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'RoleManagerPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'RoleManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'RoleManagerPlugin, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UserManagerPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UserManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UserManagerPlugin, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppManagerPlugin
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.AppInfoService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.AppInfoService.BLL
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.AppOrderService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.AppOrderService.BLL
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.AppReleaseService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.AppReleaseService.BLL
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.AppStoreService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.AppStoreService.BLL
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.EnterpriseClassService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.EnterpriseClassService.BLL
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.EnterpriseInfoService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.EnterpriseInfoService.BLL
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.EnterpriseMenuService.bll, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.EnterpriseMenuService.bll
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatForm.EnterpriseOrganService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatForm.EnterpriseOrganService.BLL
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.GroupPermissionService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.GroupPermissionService.BLL
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.UserGuopService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.GroupService.BLL
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'Appplatform.LogService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle Appplatform.LogService.BLL
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.RolePermissionService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.RolePermissionService.BLL
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.RoleService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.RoleService.BLL
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.UserAccountService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.UserAccountService.BLL
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.UserInformationService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.UserInformationService.BLL
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.UserRoleService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.UserRoleService.BLL
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle LogPlugin
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'EnterpriseManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle EnterpriseManagerPlugin
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'LogManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle LogManagerPlugin
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'RoleManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle RoleManagerPlugin
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'UserManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle UserManagerPlugin
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Framework is started.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.VisualStudio.Web.PageInspector.Runtime, Version=1.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.Build.Tasks.v4.0.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:02:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ComponentModel.Composition, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:11 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   WebSite is starting.
+Thu, 27 Mar 2014 21:04:11 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.OSGi, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261 to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:11 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.OSGi.MvcCore, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:11 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Framework is starting.
+Thu, 27 Mar 2014 21:04:12 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Can not load assembly 'bin\LogPlugin.dll' for bundle 'LogPlugin, 1.0.0.0', Exception: 'Can not find file: bin\LogPlugin.dll under G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\BlogPlugin'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.OSGi.XmlSerializers, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppManagerPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   The bundle 'LogPlugin, 1.0.0.0' can not be resolved since the local assembly 'bin\LogPlugin.dll' can not be loaded.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppManagerPlugin, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'LogManagerPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'LogManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'LogManagerPlugin, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'EnterpriseManagerPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'EnterpriseManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'EnterpriseManagerPlugin, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'LogPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   The bundle 'LogPlugin, 1.0.0.0' can not be resolved since the local assembly 'bin\LogPlugin.dll' can not be loaded.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Start the bundle 'LogPlugin, 1.0.0.0' failed.
+Thu, 27 Mar 2014 21:04:13 GMT|***|FrameworkThread|UIShell.OSGi.Logger|   |ErrorUIShell.OSGi.BundleException: The bundle 'LogPlugin, 1.0.0.0' is started failed since it can not be resolved.
+   在 UIShell.OSGi.Core.Bundle.HostBundle.DoStart(BundleStartOptions option)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.S7W6w4aZGT060CEYZpk(Object , BundleStartOptions option)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.<Start>b__1()
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.vlpQN6s604cpMAUUVeS(Object )
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.DoLifecycleAction(Action action, String actionName)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.Start(BundleStartOptions option)
+   在 UIShell.OSGi.Core.Service.Impl.StartLevelManager.Foi37JOME9osZphcqUL(Object , BundleStartOptions option)
+   在 UIShell.OSGi.Core.Service.Impl.StartLevelManager.ChangeStartLevel(Int32 startLevel)
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserRoleService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:13 GMT|***|EventDispatcherThread|UIShell.OSGi.Logger|   |ErrorUIShell.OSGi.BundleException: The bundle 'LogPlugin, 1.0.0.0' is started failed since it can not be resolved.
+   在 UIShell.OSGi.Core.Bundle.HostBundle.DoStart(BundleStartOptions option)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.S7W6w4aZGT060CEYZpk(Object , BundleStartOptions option)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.<Start>b__1()
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.vlpQN6s604cpMAUUVeS(Object )
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.DoLifecycleAction(Action action, String actionName)
+   在 UIShell.OSGi.Core.Bundle.AbstractBundle.Start(BundleStartOptions option)
+   在 UIShell.OSGi.Core.Service.Impl.StartLevelManager.Foi37JOME9osZphcqUL(Object , BundleStartOptions option)
+   在 UIShell.OSGi.Core.Service.Impl.StartLevelManager.ChangeStartLevel(Int32 startLevel)
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.UserRoleService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserRoleService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserInformationService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.UserInformationService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserInformationService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserAccountService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.UserAccountService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.UserAccountService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.RoleService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.RoleService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.RoleService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.RolePermissionService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.RolePermissionService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.RolePermissionService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'Appplatform.LogService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Appplatform.LogService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'Appplatform.LogService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.GroupService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.UserGuopService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.GroupService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.GroupPermissionService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.GroupPermissionService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.GroupPermissionService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatForm.EnterpriseOrganService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatForm.EnterpriseOrganService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatForm.EnterpriseOrganService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseMenuService.bll, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.EnterpriseMenuService.bll, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseMenuService.bll, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseInfoService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.EnterpriseInfoService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseInfoService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseClassService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.EnterpriseClassService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseClassService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppStoreService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.AppStoreService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppStoreService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppReleaseService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.AppReleaseService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppReleaseService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppOrderService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.AppOrderService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppOrderService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppInfoService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.AppInfoService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppInfoService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'RoleManagerPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'RoleManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'RoleManagerPlugin, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UserManagerPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UserManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UserManagerPlugin, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppManagerPlugin
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.AppInfoService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.AppInfoService.BLL
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.AppOrderService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.AppOrderService.BLL
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.AppReleaseService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.AppReleaseService.BLL
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.AppStoreService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.AppStoreService.BLL
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.EnterpriseClassService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.EnterpriseClassService.BLL
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.EnterpriseInfoService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.EnterpriseInfoService.BLL
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.EnterpriseMenuService.bll, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.EnterpriseMenuService.bll
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatForm.EnterpriseOrganService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatForm.EnterpriseOrganService.BLL
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.GroupPermissionService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.GroupPermissionService.BLL
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.UserGuopService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.GroupService.BLL
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'Appplatform.LogService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle Appplatform.LogService.BLL
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.RolePermissionService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.RolePermissionService.BLL
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.RoleService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.RoleService.BLL
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.UserAccountService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.UserAccountService.BLL
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.UserInformationService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.UserInformationService.BLL
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.UserRoleService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.UserRoleService.BLL
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle LogPlugin
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'EnterpriseManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle EnterpriseManagerPlugin
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'LogManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle LogManagerPlugin
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'RoleManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle RoleManagerPlugin
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'UserManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle UserManagerPlugin
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Framework is started.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.VisualStudio.Web.PageInspector.Runtime, Version=1.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.RegularExpressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Data.Services.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:13 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:14 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_global.asax.__fb7dxy, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:14 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:14 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:14 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Raven.Abstractions, Version=2.0.3.0, Culture=neutral, PublicKeyToken=37f41c7f99471593'.
+Thu, 27 Mar 2014 21:04:14 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Raven.Abstractions, Version=2.0.3.0, Culture=neutral, PublicKeyToken=37f41c7f99471593'.
+Thu, 27 Mar 2014 21:04:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Raven.Client.Lightweight, Version=2.0.3.0, Culture=neutral, PublicKeyToken=37f41c7f99471593'.
+Thu, 27 Mar 2014 21:04:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Raven.Client.Lightweight, Version=2.0.3.0, Culture=neutral, PublicKeyToken=37f41c7f99471593'.
+Thu, 27 Mar 2014 21:04:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:04:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.Contracts.Commands.RegistryService__impl, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'mscorlib.XmlSerializers, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ServiceModel.Internals, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Workflow.ComponentModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Workflow.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Workflow.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Xaml.Hosting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.Build.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Data.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Runtime.DurableInstancing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'SMDiagnostics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.VisualBasic.Activities.Compiler, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:04:21 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Data.SqlXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:21 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Mvc.resources, Version=4.0.0.0, Culture=zh-CN, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:21 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Mvc.resources, Version=4.0.0.0, Culture=zh-CN, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:21 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Mvc.resources, Version=4.0.0.0, Culture=zh-CHS, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:21 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Mvc.resources, Version=4.0.0.0, Culture=zh-CHS, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:21 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.Mvc.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:21 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:04:21 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load controller 'Account' since the plugin name is not specified.
+Thu, 27 Mar 2014 21:04:21 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Razor.resources, Version=2.0.0.0, Culture=zh-CN, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:21 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Razor.resources, Version=2.0.0.0, Culture=zh-CN, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:21 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Razor.resources, Version=2.0.0.0, Culture=zh-CHS, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:21 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Razor.resources, Version=2.0.0.0, Culture=zh-CHS, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:21 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.Razor.resources, Version=2.0.0.0, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:22 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:04:22 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_02azwljp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:23 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_tu310l0t, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:23 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Dynamic, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:04:53 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load controller 'MainPage' since the plugin name is not specified.
+Thu, 27 Mar 2014 21:04:53 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Data.OracleClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:54 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ComponentModel.DataAnnotations.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:56 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh-CN, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:56 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh-CN, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:56 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh-CHS, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:56 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh-CHS, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:56 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:56 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:56 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:56 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:56 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'EntityFrameworkDynamicProxies-AppPlatform.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:58 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_04b0mbn1, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:58 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.CSharp.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:04:59 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_gpvukr2t, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:05:02 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load controller 'Home' since the plugin name is not specified.
+Thu, 27 Mar 2014 21:05:03 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_xpvvxe2u, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:05:05 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Group' from bundle 'RoleManagerPlugin' and then added to cache.
+Thu, 27 Mar 2014 21:05:05 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Group' from bundle 'RoleManagerPlugin' by using cache.
+Thu, 27 Mar 2014 21:05:06 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_q3cjccap, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:05:07 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_vpvfieaa, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:05:07 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load controller 'Group' since the plugin name is not specified.
+Thu, 27 Mar 2014 21:05:27 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Group' from bundle 'RoleManagerPlugin' by using cache.
+Thu, 27 Mar 2014 21:05:27 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Group' from bundle 'RoleManagerPlugin' by using cache.
+Thu, 27 Mar 2014 21:05:27 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load controller 'Group' since the plugin name is not specified.
+ 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseInfoService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.EnterpriseInfoService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseInfoService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseClassService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.EnterpriseClassService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.EnterpriseClassService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppStoreService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.AppStoreService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppStoreService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppReleaseService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.AppReleaseService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppReleaseService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppOrderService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.AppOrderService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppOrderService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppInfoService.BLL, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.AppInfoService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AppPlatform.AppInfoService.BLL, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'RoleManagerPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'RoleManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'RoleManagerPlugin, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UserManagerPlugin, 1.0.0.0' is starting.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UserManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UserManagerPlugin, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is in state 'Active'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppManagerPlugin
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.AppInfoService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.AppInfoService.BLL
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.AppOrderService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.AppOrderService.BLL
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.AppReleaseService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.AppReleaseService.BLL
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.AppStoreService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.AppStoreService.BLL
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.EnterpriseClassService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.EnterpriseClassService.BLL
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.EnterpriseInfoService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.EnterpriseInfoService.BLL
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.EnterpriseMenuService.bll, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.EnterpriseMenuService.bll
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatForm.EnterpriseOrganService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatForm.EnterpriseOrganService.BLL
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.GroupPermissionService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.GroupPermissionService.BLL
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.UserGuopService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.GroupService.BLL
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'Appplatform.LogService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle Appplatform.LogService.BLL
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.RolePermissionService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.RolePermissionService.BLL
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.RoleService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.RoleService.BLL
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.UserAccountService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.UserAccountService.BLL
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.UserInformationService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.UserInformationService.BLL
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AppPlatform.UserRoleService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle AppPlatform.UserRoleService.BLL
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle LogPlugin
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'EnterpriseManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle EnterpriseManagerPlugin
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'LogManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle LogManagerPlugin
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'RoleManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle RoleManagerPlugin
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'UserManagerPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembiles from bundle UserManagerPlugin
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Framework is started.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.VisualStudio.Web.PageInspector.Runtime, Version=1.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.IdentityModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ServiceModel.Activation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ServiceModel.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.WorkflowServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.DynamicData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Antlr3.Runtime, Version=3.3.1.7705, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.IDAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.LoginService.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppPlatform.RegisterServie.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AppplatformCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'NServiceBus.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'NServiceBus, Version=4.4.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.Providers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.Extension, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'WebGrease, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.Build.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.Build.Tasks.v4.0.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:04:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ComponentModel.Composition, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Thu, 27 Mar 2014 21:05:44 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b03f5f7f11d50a3a'.
