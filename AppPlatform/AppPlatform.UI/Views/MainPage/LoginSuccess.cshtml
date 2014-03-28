@@ -124,10 +124,20 @@
                                     <input  type="button" id="@ViewData["url"]" onclick="create(this)" value="@funitem.Function_Name" />
                                  }
                              }
+                             @{
+                                 var applist = ViewData["applist"] as List<AppPlatform.Model.Models.App>;
+                                 foreach(var appitem in applist)
+                                 {
+                                     //配置统一入口地址,拼接URL，再在入口地址根据APPID去查找APP
+                                     ViewBag.url = "/Home/AppEntrance?id=" + @appitem.App_ID;
+                                     <input type="button" id="@ViewBag.url" onclick="create(this)" value="@appitem.App_Name"/>
+                                     
+                                 }
+                             }
                         @*<input name="sys" type="button" onclick="create('/Home/SystemFunction'+'/sys', this)" value="系统管理"/>*@@*动态显示*@
-                        <input type="button" id="/AppStore/Index?plugin=AppManagerPlugin" onclick="create(this)" value="应用商店"/>
-                        <input type="button" id="http://jeasyui.com/" onclick="create(this)" value="EasyUI"/>
-                        <input type="button" id="/Home/AppEntrance" onclick="create(this)" value="应用入口"/>
+                        <input type="button" id="/AppStore/Index?plugin=AppManagerPlugin&id=1" onclick="create(this)" value="应用商店"/>
+                        @*<input type="button" id="http://jeasyui.com/1" onclick="create(this)" value="EasyUI"/>*@
+                        <input type="button" id="/Home/AppEntrance?id=1" onclick="create(this)" value="应用入口"/>
                          </div>
                 </div>
                 <div style="float:right;margin-right:40px">

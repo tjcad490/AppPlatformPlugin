@@ -23,7 +23,7 @@ namespace AppPlatform.UI.Controllers
             return View();
         }
 
-        public ActionResult AppEntrance()
+        public ActionResult AppEntrance(int id)
         {
             ViewBag.URL = "http://jeasyui.com/";
             return Redirect("http://jeasyui.com/");

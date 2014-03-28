@@ -24,7 +24,7 @@ namespace AppPlatform.UI.Controllers
             var userID = Convert.ToInt32(Request["UserID"]);
             var passWord = Request["Password"];
             ILoginService _loginService = new AppPlatform.LoginService.BLL.LoginService();
-            userLoginInfo = _loginService.LoginAuthen(enterPriseID, userID, passWord);
+            userLoginInfo = _loginService.LoginAuthen(enterPriseID, userID, passWord);//用户登录基本信息
             if (userLoginInfo.loginResult == LoginResult.userNoExist)
             {
                 //ViewData["EnterpriseName"] = enterPriseID+ "企业：";
@@ -60,6 +60,8 @@ namespace AppPlatform.UI.Controllers
                 User user = _userRepository.LoadEntities(User => User.Enterprise_ID == enterPrise.Enterprise_ID && User.User_ID == userID).FirstOrDefault();
                 ViewData["userName"] = user.User_Name;
                 //根据用户角色，动态加载菜单项
+                
+
                 IGroup_FunctionRepository _groupFunction = RepositoryFactory.Group_FunctionRepository;
                 List<Group_Function> GroupFunction = _groupFunction.LoadEntities(Group_Function => Group_Function.Group_ID == userLoginInfo.UserGroupID).ToList<Group_Function>();
                 List<Function> functionList = new List<Function>();
@@ -70,6 +72,29 @@ namespace AppPlatform.UI.Controllers
                     functionList.Add(function);
                 }
                 ViewData["function"] = functionList;
+                ///加载企业应用
+                ///
+                List<App> applist = new List<App>();
+                try
+                {
+                    IApp_RoleRepository _appRoleRepoitory = RepositoryFactory.App_RoleRepository;
+                    var appRole = _appRoleRepoitory.LoadEntities(App_Role => App_Role.Role_ID == userLoginInfo.UserRoleID).ToList<App_Role>();
+                    foreach (var appRoleItem in appRole)
+                    {
+                        IAppRepository _appRepoitory = RepositoryFactory.AppRepository;
+                        var app = _appRepoitory.LoadEntities(App => App.App_ID == appRoleItem.App_ID).FirstOrDefault();
+                        applist.Add(app);
+                    }
+                }
+                catch(Exception e)
+                { 
+                }
+                if (applist != null)
+                {
+                    ViewData["applist"] = applist;
+                }
+                
+
                 return View();
             }
             return new EmptyResult();
