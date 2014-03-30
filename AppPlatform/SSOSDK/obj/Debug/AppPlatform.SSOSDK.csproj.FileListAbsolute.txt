@@ -2,4 +2,3 @@ G:\实验室项目\AppPlatformPlugin\AppPlatform\SSOSDK\bin\Debug\SSOSDK.dll
 G:\实验室项目\AppPlatformPlugin\AppPlatform\SSOSDK\bin\Debug\SSOSDK.pdb
 G:\实验室项目\AppPlatformPlugin\AppPlatform\SSOSDK\obj\Debug\SSOSDK.dll
 G:\实验室项目\AppPlatformPlugin\AppPlatform\SSOSDK\obj\Debug\SSOSDK.pdb
-G:\实验室项目\AppPlatformPlugin\AppPlatform\SSOSDK\obj\Debug\AppPlatform.SSOSDK.csprojResolveAssemblyReference.cache

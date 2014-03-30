@@ -33,5 +33,6 @@ F:\project\AppPlatformPlugin\AppPlatform\MvcOSGi.Core\obj\Debug\UIShell.OSGi.Mvc
 F:\project\AppPlatformPlugin\AppPlatform\MvcOSGi.Core\obj\Debug\UIShell.OSGi.MvcCore.pdb
 G:\实验室项目\AppPlatformPlugin\AppPlatform\MvcOSGi.Core\bin\Debug\UIShell.OSGi.MvcCore.dll
 G:\实验室项目\AppPlatformPlugin\AppPlatform\MvcOSGi.Core\bin\Debug\UIShell.OSGi.MvcCore.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\MvcOSGi.Core\obj\Debug\UIShell.OSGi.MvcCore.csprojResolveAssemblyReference.cache
 G:\实验室项目\AppPlatformPlugin\AppPlatform\MvcOSGi.Core\obj\Debug\UIShell.OSGi.MvcCore.dll
 G:\实验室项目\AppPlatformPlugin\AppPlatform\MvcOSGi.Core\obj\Debug\UIShell.OSGi.MvcCore.pdb
