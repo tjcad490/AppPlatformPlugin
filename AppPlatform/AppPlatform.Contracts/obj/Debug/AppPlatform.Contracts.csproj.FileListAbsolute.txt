@@ -11,3 +11,4 @@ G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.Contracts\bin\Debug
 G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.Contracts\bin\Debug\AppPlatform.Contracts.pdb
 G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.Contracts\obj\Debug\AppPlatform.Contracts.dll
 G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.Contracts\obj\Debug\AppPlatform.Contracts.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.Contracts\obj\Debug\AppPlatform.Contracts.csprojResolveAssemblyReference.cache

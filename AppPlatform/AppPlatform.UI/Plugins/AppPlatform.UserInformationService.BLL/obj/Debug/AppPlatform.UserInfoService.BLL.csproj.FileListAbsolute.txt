@@ -3,3 +3,4 @@ G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatf
 G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.UserInformationService.BLL\bin\UIShell.OSGi.dll
 G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.UserInformationService.BLL\obj\Debug\AppPlatform.UserInformationService.BLL.dll
 G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.UserInformationService.BLL\obj\Debug\AppPlatform.UserInformationService.BLL.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.UserInformationService.BLL\obj\Debug\AppPlatform.UserInfoService.BLL.csprojResolveAssemblyReference.cache

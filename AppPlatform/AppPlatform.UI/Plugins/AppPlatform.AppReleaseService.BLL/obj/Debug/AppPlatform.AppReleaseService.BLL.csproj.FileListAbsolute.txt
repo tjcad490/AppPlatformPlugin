@@ -3,3 +3,4 @@ G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatf
 G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppReleaseService.BLL\bin\UIShell.OSGi.dll
 G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppReleaseService.BLL\obj\Debug\AppPlatform.AppReleaseService.BLL.dll
 G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppReleaseService.BLL\obj\Debug\AppPlatform.AppReleaseService.BLL.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppReleaseService.BLL\obj\Debug\AppPlatform.AppReleaseService.BLL.csprojResolveAssemblyReference.cache
