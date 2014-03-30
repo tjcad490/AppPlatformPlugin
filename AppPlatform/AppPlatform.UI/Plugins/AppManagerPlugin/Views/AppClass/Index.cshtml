@@ -1,0 +1,246 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>应用类别管理</title>
+    <link href="~/Content/themes/default/easyui.css" rel="stylesheet" />
+    <link href="~/Content/themes/icon.css" rel="stylesheet" />
+     @Scripts.Render("~/Scripts/jquery-1.8.0.min.js")
+     @Scripts.Render("~/Scripts/jquery.easyui.min.js")
+
+    <script type="text/javascript">
+        var editIndex;
+        function onclick(index) {
+            editIndex = index;
+        }
+
+        function newAppClass() {
+            $('#dlg').dialog('open').dialog('setTitle', '新建分类');
+            $('#fm').form('clear');
+        }
+        function editAppClass() {
+            var row = $('#dg').datagrid('getSelected');
+            if (row) {
+              
+                $('#dlgEdit').dialog('open').dialog('setTitle', '应用分类修改');
+                $('#AppClassEdit').form('load', row);
+                //url = 'EditApp';
+            }
+        }
+        function SaveNewAppClass() {
+            $('#fm').form('submit', {
+                url: '@Url.Action("AddNewAppClass")',
+                onSubmit: function () {
+                    return $(this).form('validate');
+                },
+                success: function (result) {
+                    if (result == "True") {
+                        $("#dlg").dialog('close');
+                        $("#dg").datagrid('reload');
+                    }
+                    else {
+                        alert("新分类添加失败");
+                    }
+
+                }
+            });
+        }
+            function saveAppClassEdit() {
+                $('#AppEdit').form('submit', {
+                    url:'@Url.Action("EditAppClass")',
+                    onSubmit: function () {
+                        return $(this).form('validate');
+                        
+                    },
+                    success: function (result) {
+                        if (result == "True") {
+                            $("#dlgEdit").dialog('close');
+                            $("#dg").datagrid('reload');
+                        }
+                        else {
+                            alert("应用分类编辑失败");
+                        }
+                    }
+                });
+            }
+            function destroyAppClass() {
+                var row = $('#dg').datagrid('getSelected');
+                if (row) {
+                    $.messager.confirm('Confirm', '确定要删除这个分类吗?', function (r) {
+                        if (r) {
+                            $.post('DestroyAppClass?id=' + row.AppClass_ID, function (result) {
+                                if (result == "True") {
+                                    $('#dg').datagrid('reload');    // reload the user data
+                                } else {
+                                    $.messager.show({    // show error message
+                                        title: 'Error',
+                                        msg: '删除错误'
+                                    });
+                                }
+                            });
+                        }
+                    });
+                }
+            }
+            function getData() {
+                $('#dg').datagrid({
+                    url: '@Url.Action("GetAppClassList")',
+                method: 'get'
+            });
+        }
+        $(document).ready(function () {
+            getData();
+
+        })
+
+        function asearchAppClass() {
+            var SearchText = document.getElementById('SearchText').value;
+
+            if (SearchText) {
+                $.post('searchAppClass?name=' + SearchText, function (result) {
+                    if (result != "null") {
+
+
+                        $('#dg').datagrid({
+                            url: "searchAppClass?name=" + SearchText,
+                            method: 'get'
+                        });
+
+                        $('#dg').datagrid('reload');    // reload the user data
+                    }
+                });
+            }
+            else {
+                $('#dg').datagrid({
+                    url: '@Url.Action("GetAppClassList")',
+                    method: 'get'
+                });
+
+                $('#dg').datagrid('reload');
+            }
+        }
+    </script>
+
+   <style type="text/css">
+        #fm{
+            margin:0;
+            padding:10px 30px;
+        }
+        .ftitle{
+            font-size:14px;
+            font-weight:bold;
+            padding:5px 0;
+            margin-bottom:10px;
+            border-bottom:1px solid #ccc;
+        }
+        .fitem{
+            margin-bottom:5px;
+        }
+        .fitem label{
+            display:inline-block;
+            width:80px;
+        }
+    </style>
+</head>
+<body>
+    
+       
+    <div data-options="region:'center'">
+    <table id="dg" title="应用列表" class="easyui-datagrid"
+            method="get" data-options="onClickRow:onclick"
+            toolbar="#toolbar" pagination="true" idField="id"
+            rownumbers="true" fitColumns="true"  singleSelect="true"
+        AllowUserToResizeColumns ="true">
+        <thead>
+            <tr>
+               <th data-options="field:'AppClass_ID',width:50">分类编号</th>
+                <th data-options="field:'AppClass_Name',width:50">分类名称</th>
+                <th data-options="field:'AppClass_PID',width:50">上级分类编号</th>
+<th data-options="field:'AppClass_Note',width:50">备注</th>
+               
+            </tr>
+        </thead>
+    </table>
+    
+     
+            <div id="toolbar">
+                    <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="newAppClass()">添加</a>@*如果是应用订阅管理，是应用订阅，否则是应用发布*@
+            <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-edit" plain="true"onclick="editAppClass()">编辑</a>
+            <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-remove" plain="true"onclick="destroyAppClass()">删除</a>
+            <input type="text" id="SearchText" >
+            <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-search"plain="true" onclick="asearchAppClass()">搜索</a>@*简单搜索*@
+        </div>
+         </div>
+    
+    <div id="dlg" class="easyui-dialog" style="width: 400px; height: 280px; padding: 10px 20px;"
+       closed="true" buttons="#dlg-buttons"> 
+       <div class="ftitle"> 
+          添加分类 
+       </div> 
+      <form id="fm" method="post" novalidate>
+         
+       <div class="fitem"> 
+           <label for="AppClass_Name"> 
+              分类名称</label> 
+           <input name="AppClass_Name" class="easyui-validatebox"  > 
+       </div> 
+        <div class="fitem"> 
+           <label for="AppClass_PID"> 
+              上级分类编号</label> 
+           <input name="AppClass_PID" class="easyui-validatebox"  > 
+       </div> 
+       <div class="fitem"> 
+           <label for="AppClass_Note"> 
+               备注</label> 
+           <textarea name="AppClass_Note" style="width:230px"  > </textarea>
+       </div> 
+       </form> 
+   </div>
+    
+<div id="dlg-buttons"> 
+        <a href="javascript:void(0)" class="easyui-linkbutton" onclick="SaveNewAppClass()" iconcls="icon-save">保存</a> 
+         <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-cancel" onclick="javascript:$('#dlg').dialog('close')">取消</a>
+    </div> 
+  <div id="dlgEdit" class="easyui-dialog" style="width:400px;padding:10px 20px"
+            closed="true" buttons="#dlg-buttons2">
+
+    <div class="ftitle"> 
+           分类信息编辑
+       </div> 
+       <form id="AppClassEdit" method="post" novalidate>
+       <div class="fitem"> 
+           <label for="AppClass_ID"> 
+              分类编号</label> 
+           <input name="AppClass_ID" class="easyui-validatebox" readonly="true" > 
+       </div> 
+      
+        <div class="fitem"> 
+           <label for="AppClass_Name"> 
+              分类名称</label> 
+           <input name="AppClass_Name" class="easyui-validatebox"  > 
+       </div> 
+        <div class="fitem"> 
+           <label for="AppClass_PID"> 
+              上级分类编号</label> 
+           <input name="AppClass_PID" class="easyui-validatebox"  > 
+       </div> 
+       <div class="fitem"> 
+           <label for="AppClass_Note"> 
+              备注</label> 
+           <textarea name="AppClass_Note" style="width:230px"  > </textarea>
+       </div> 
+       </form> 
+   </div>
+        <div id="dlg-buttons2">
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-ok" onclick="saveAppClassEdit()">保存</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-cancel" onclick="javascript:$('#dlgEdit').dialog('close')">取消</a>
+    </div>
+          
+        
+</body>
+</html>

@@ -1,35 +1,50 @@
 ﻿using System;
+using System.Linq;
 using System.Collections.Generic;
 using System.Text;
-
+using AppPlatform.IDAL;
+using AppPlatform.Model;
+using AppPlatform.DAL;
+using System.Data.SqlClient;
+using System.Threading.Tasks;
+using AppPlatform.Model.Models;
 namespace AppPlatform.AppInfoService.BLL
 {
     public class AppInfoService : IAppInfoService
     {
+        
 
-        public void AppListGet()
+        public List<Model.Models.App> AppListGet()
         {
-            throw new NotImplementedException();
+            IAppRepository _appRepository = RepositoryFactory.AppRepository;
+            List<App> a = _appRepository.LoadEntities(App => (App.App_ID > 0)).ToList<App>();
+            return a;
         }
 
-        public void AppInfoGet(object AppID)
+        public List<App> AppInfoGet(int AppId)
         {
-            throw new NotImplementedException();
+            IAppRepository _appRepository = RepositoryFactory.AppRepository;
+            List<App> a = _appRepository.LoadEntities(App => (App.App_ID == AppId)).ToList<App>();
+            return a;
         }
 
-        public bool AppInfoCreate(object AppInfo)
+        public bool AppInfoCreate(Model.Models.App app)
         {
-            throw new NotImplementedException();
+            IAppRepository _appRepository = RepositoryFactory.AppRepository;
+            return _appRepository.AddEntity(app); ;
         }
 
-        public bool AppInfoUpdate(object AppInfo)
+        public bool AppInfoUpdate(Model.Models.App app)
         {
-            throw new NotImplementedException();
+            IAppRepository _appRepository = RepositoryFactory.AppRepository;
+            return _appRepository.UpdateEntity(app);
         }
 
-        public bool AppDelete(object AppID)
+        public bool AppDelete(int AppId)
         {
-            throw new NotImplementedException();
+            IAppRepository _appRepository = RepositoryFactory.AppRepository;
+            App app = _appRepository.LoadEntities(App => (App.App_ID == AppId)).FirstOrDefault();
+            return _appRepository.DeleteEntity(app);
         }
     }
 }

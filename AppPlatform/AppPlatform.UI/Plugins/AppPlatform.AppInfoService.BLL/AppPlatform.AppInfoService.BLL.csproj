@@ -86,6 +86,20 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\AppPlatform.DAL\AppPlatform.DAL.csproj">
+      <Project>{cd97f16b-08c6-41ba-8ac1-377fbc4ac59d}</Project>
+      <Name>AppPlatform.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\AppPlatform.IDAL\AppPlatform.IDAL.csproj">
+      <Project>{52cf0184-191e-4005-9b30-6eaec8d363fa}</Project>
+      <Name>AppPlatform.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\AppPlatform.Model\AppPlatform.Model.csproj">
+      <Project>{e23410d3-3039-4828-ba44-7e3658284812}</Project>
+      <Name>AppPlatform.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

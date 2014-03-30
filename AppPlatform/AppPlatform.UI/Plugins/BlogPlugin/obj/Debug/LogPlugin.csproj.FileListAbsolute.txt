@@ -1,4 +1,0 @@
-F:\实验室项目\AppPlatform\AppPlatform\AppPlatform\AppPlatform.UI\Plugins\BlogPlugin\bin\BlogPlugin.dll
-F:\实验室项目\AppPlatform\AppPlatform\AppPlatform\AppPlatform.UI\Plugins\BlogPlugin\obj\Debug\LogPlugin.csprojResolveAssemblyReference.cache
-F:\实验室项目\AppPlatform\AppPlatform\AppPlatform\AppPlatform.UI\Plugins\BlogPlugin\obj\Debug\BlogPlugin.dll
-F:\实验室项目\AppPlatform\AppPlatform\AppPlatform\AppPlatform.UI\Plugins\BlogPlugin\obj\Debug\BlogPlugin.pdb

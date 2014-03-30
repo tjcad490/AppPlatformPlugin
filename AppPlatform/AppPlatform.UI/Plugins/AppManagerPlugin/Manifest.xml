@@ -8,6 +8,7 @@
     <Dependency BundleSymbolicName="AppPlatform.AppReleaseService.BLL" AssemblyName="AppPlatform.AppReleaseService.BLL" Resolution="Mandatory" />
     <Dependency BundleSymbolicName="AppPlatform.AppStoreService.BLL" AssemblyName="AppPlatform.AppStoreService.BLL" Resolution="Mandatory" />
     <Dependency BundleSymbolicName="Appplatform.LogService.BLL" AssemblyName="Appplatform.LogService.BLL" Resolution="Mandatory" />
+    <Dependency BundleSymbolicName="AppPlatform.AppClassService.BLL" AssemblyName="AppPlatform.AppClassService.BLL" Resolution="Mandatory" />
   </Runtime>
   <Extension Point="MainMenu">
     <item url="/AppInfo/Index?plugin=AppManagerPlugin" text="应用信息管理" order="0">
@@ -15,6 +16,8 @@
     <item url="/AppStore/Index?plugin=AppManagerPlugin" text="应用商店" order="0">
     </item>
     <item url="/AppRelease/Index?plugin=AppManagerPlugin" text="应用发布" order="0">
+    </item>
+    <item url="/AppClass/Index?plugin=AppManagerPlugin" text="应用分类管理" order="0">
     </item>
   </Extension>
 </Bundle>

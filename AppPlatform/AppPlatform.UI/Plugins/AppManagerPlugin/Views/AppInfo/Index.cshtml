@@ -10,52 +10,338 @@
     <title>应用信息管理</title>
     <link href="~/Content/themes/default/easyui.css" rel="stylesheet" />
     <link href="~/Content/themes/icon.css" rel="stylesheet" />
-    <script src="~/Scripts/jquery-1.8.0.min.js"></script>
-    <script src="~/Scripts/jquery.easyui.min.js"></script>
+     @Scripts.Render("~/Scripts/jquery-1.8.0.min.js")
+     @Scripts.Render("~/Scripts/jquery.easyui.min.js")
+    <script type="text/javascript">
+        var editIndex;
+        function onclick(index) {
+            editIndex = index;
+        }
+
+        function newApp() {
+            $('#dlg').dialog('open').dialog('setTitle', '新建角色');
+            $('#fm').form('clear');
+        }
+        function editApp() {
+            var row = $('#dg').datagrid('getSelected');
+            if (row) {
+              
+                $('#dlgEdit').dialog('open').dialog('setTitle', '应用修改');
+                $('#AppEdit').form('load', row);
+                //url = 'EditApp';
+            }
+        }
+        function SaveNewApp() {
+            var n = $('#ctree').combotree('tree');
+           
+            var t = n.tree('getSelected');
+           
+            var class_id = t.id;
+            alert(class_id);
+       
+           $('#fm').form('submit', {
+                url: "AddNewApp?id=" +class_id,
+                onSubmit: function () {
+                    return $(this).form('validate');
+                },
+                success: function (result) {
+                    if (result == "True") {
+                        $("#dlg").dialog('close');
+                        $("#dg").datagrid('reload');
+                    }
+                    else {
+                        alert("新应用添加失败");
+                    }
+
+                }
+            });
+            }
+            function saveAppEdit() {
+                $('#AppEdit').form('submit', {
+                    url:'@Url.Action("EditApp")',
+                    onSubmit: function () {
+                        return $(this).form('validate');
+                        
+                    },
+                    success: function (result) {
+                        if (result == "True") {
+                            $("#dlgEdit").dialog('close');
+                            $("#dg").datagrid('reload');
+                        }
+                        else {
+                            alert("应用编辑失败");
+                        }
+                    }
+                });
+            }
+            function destroyApp() {
+                var row = $('#dg').datagrid('getSelected');
+                if (row) {
+                    $.messager.confirm('Confirm', '确定要删除这个应用吗?', function (r) {
+                        if (r) {
+                            $.post('DestroyApp?id=' + row.App_ID, function (result) {
+                                if (result == "True") {
+                                    $('#dg').datagrid('reload');    // reload the user data
+                                } else {
+                                    $.messager.show({    // show error message
+                                        title: 'Error',
+                                        msg: '删除错误'
+                                    });
+                                }
+                            });
+                        }
+                    });
+                }
+            }
+            function getData() {
+                $('#dg').datagrid({
+                    url: '@Url.Action("GetAppList")',
+                method: 'get'
+            });
+        }
+        $(document).ready(function () {
+            getData();
+
+        })
+
+        function asearchApp() {
+            var SearchText = document.getElementById('SearchText').value;
+
+            if (SearchText) {
+                $.post('searchApp?name=' + SearchText, function (result) {
+                    if (result != "null") {
+
+
+                        $('#dg').datagrid({
+                            url: "searchApp?name=" + SearchText,
+                            method: 'get'
+                        });
+
+                        $('#dg').datagrid('reload');    // reload the user data
+                    }
+                });
+            }
+            else {
+                $('#dg').datagrid({
+                    url: '@Url.Action("GetAppList")',
+                    method: 'get'
+                });
+
+                $('#dg').datagrid('reload');
+            }
+           
+        }
+       
+    </script>
+
+   <style type="text/css">
+        #fm{
+            margin:0;
+            padding:10px 30px;
+        }
+        .ftitle{
+            font-size:14px;
+            font-weight:bold;
+            padding:5px 0;
+            margin-bottom:10px;
+            border-bottom:1px solid #ccc;
+        }
+        .fitem{
+            margin-bottom:5px;
+        }
+        .fitem label{
+            display:inline-block;
+            width:80px;
+        }
+    </style>
 </head>
 <body>
-    <div class="easyui-layout" data-options="fit:true" >
+     <div class="easyui-layout" data-options="fit:true" >
         <div data-options="region:'west',split:true" title="应用导航" style="width:200px;">
-            <div class="easyui-accordion" data-options="border:false">
-                <div title="Title1" style="padding:10px;">
-                    <ul>
-                    	<li></li>
-                    </ul>>
-                </div>
-                <div title="Title2" data-options="selected:true" style="padding:10px;">
-                    content2
-                </div>
-                <div title="Title3" style="padding:10px">
-                    content3
-                </div>
-            </div>
+           <table id="appclassTbl"  class="easyui-treegrid" tbl="list">  
+           </table>
         </div>
-        <div data-options="region:'center',title:'应用信息'">
-        <table class="easyui-datagrid" 
-            data-options="method:'get',border:false,fit:true,singleSelect:true,fitColumns:true,toolbar:'#tb',pagination:true,
-                pageSize:10">
+
+       
+    <div data-options="region:'center'">
+    <table id="dg" title="应用列表" class="easyui-datagrid"
+            method="get" data-options="onClickRow:onclick"
+            toolbar="#toolbar" pagination="true" idField="id"
+            rownumbers="true" fitColumns="true"  singleSelect="true"
+        AllowUserToResizeColumns ="true">
         <thead>
             <tr>
-                <th data-options="field:'itemid',width:80">应用名称</th>
-                <th data-options="field:'productid',width:100">Product</th>
-                <th data-options="field:'listprice',width:80,align:'right'">List Price</th>
-                <th data-options="field:'unitcost',width:80,align:'right'">Unit Cost</th>
-                <th data-options="field:'attr1',width:240">Attribute</th>
-                <th data-options="field:'status',width:60,align:'center'">Status</th>
+                <th data-options="field:'App_ID',width:50">应用编号</th>
+                <th data-options="field:'App_Name',width:50">应用名称</th>
+                <th data-options="field:'App_Description',width:50">应用描述</th>
+                <th data-options="field:'App_url',width:50">应用地址</th>
+                <th data-options="field:'App_BrowseNum',width:50">浏览次数</th>
+                <th data-options="field:'App_DownNum',width:50">下载次数</th>
+                <th data-options="field:'AppUpdate_Time ',width:50">上传时间</th>
+                <th data-options="field:'App_State',width:50">状态</th>
+                <th data-options="field:'App_Option',width:50">备注</th>
             </tr>
         </thead>
     </table>
-    <div id="tb" style="padding:5px;height:auto">
-        <div style="margin-bottom:5px">
-            <a href="#" class="easyui-linkbutton" iconCls="icon-add" plain="true">添加</a>@*如果是应用订阅管理，是应用订阅，否则是应用发布*@
-            <a href="#" class="easyui-linkbutton" iconCls="icon-edit" plain="true">编辑</a>
-            <a href="#" class="easyui-linkbutton" iconCls="icon-save" plain="true">保存</a>
-            <a href="#" class="easyui-linkbutton" iconCls="icon-remove" plain="true">删除</a>
-            <input type="text" id="SearchText" />
-            <a href="#" class="easyui-linkbutton" iconCls="icon-search">搜索</a>@*简单搜索*@
+    
+     
+            <div id="toolbar">
+                    <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="newApp()">添加</a>@*如果是应用订阅管理，是应用订阅，否则是应用发布*@
+            <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-edit" plain="true"onclick="editApp()">编辑</a>
+            <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-remove" plain="true"onclick="destroyApp()">删除</a>
+            <input type="text" id="SearchText" >
+            <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-search"plain="true" onclick="asearchApp()">搜索</a>@*简单搜索*@
         </div>
-        </div>
+         </div>
+    </div>
+    <div id="dlg" class="easyui-dialog" style="width: 400px; height: 280px; padding: 10px 20px;"
+       closed="true" buttons="#dlg-buttons"> 
+       <div class="ftitle"> 
+           信息编辑 
+       </div> 
+      <form id="fm" method="post" novalidate>
+       
+      
+       <div class="fitem"> 
+           <label for="App_Name"> 
+              应用名称
+           </label> 
+           <input name="App_Name" class="easyui-validatebox"  /> 
+       </div> 
+          <div class="fitem">     
+                <label for="AppClass_Name">应用分类</label>
+                 <input id="ctree" name="AppClass_Name" class="easyui-combotree" data-options="url:'GetAppClassList',method:'get'" >
+                </div>
+        <div class="fitem"> 
+           <label for="App_Logo"> 
+              应用Logo</label> 
+           <input name="App_Logo" class="easyui-validatebox"  /> 
+       </div> 
+       <div class="fitem"> 
+           <label for="App_Description"> 
+               应用描述</label> 
+           <textarea name="App_Description" style="width:230px"  > </textarea>
+       </div> 
+       <div class="fitem"> 
+           <label for="App_url"> 
+               应用地址</label> 
+           <input name="App_url" class="easyui-vlidatebox" > 
+       </div> 
+            <div class="fitem"> 
+           <label for="App_BrowseNum"> 
+               浏览次数</label> 
+           <input name="App_BrowseNum" class="easyui-vlidatebox" > 
+       </div> 
+            <div class="fitem"> 
+           <label for ="App_DownNum"> 
+               下载次数</label> 
+           <input name="App_DownNum" class="easyui-vlidatebox" > 
+       </div> 
+              <div class="fitem"> 
+           <label for ="App_Gragh"> 
+               应用界面</label> 
+           <input name="App_Gragh" class="easyui-vlidatebox" > 
+       </div> 
+            <div class="fitem"> 
+           <label for="AppUpdate_Time"> 
+               上传时间</label> 
+           <input name="AppUpdate_Time" class="easyui-datetimebox" > 
+       </div> 
+           
+            <div class="fitem"> 
+           <label for="App_State"> 
+               状态</label> 
+           <input name="App_State" class="easyui-vlidatebox"> 
+       </div> 
+    
+            <div class="fitem"> 
+           <label for="App_Option"> 
+               备注</label> 
+           <textarea name="App_Option" style="width:230px" > </textarea>
+       </div> 
+       </form> 
    </div>
- </div>
+    
+<div id="dlg-buttons"> 
+        <a href="javascript:void(0)" class="easyui-linkbutton" onclick="SaveNewApp()" iconcls="icon-save">保存</a> 
+         <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-cancel" onclick="javascript:$('#dlg').dialog('close')">取消</a>
+    </div> 
+  <div id="dlgEdit" class="easyui-dialog" style="width:400px;padding:10px 20px"
+            closed="true" buttons="#dlg-buttons2">
+
+    <div class="ftitle"> 
+           信息编辑 
+       </div> 
+       <form id="AppEdit" method="post" novalidate>
+       
+       <div class="fitem"> 
+           <label for="AppClass_ID"> 
+             应用编号</label> 
+           <input name="App_ID" class="easyui-validatebox" readonly="true"  > 
+       </div> 
+           <div class="fitem">     
+                <label for="AppClass_Name">应用分类</label>
+                 <input name="AppClass_Name" class="easyui-combotree" data-options="url:'GetAppClassList',method:'get'" >
+                </div>
+       <div class="fitem"> 
+           <label for="App_Name"> 
+              应用名称</label> 
+           <input name="App_Name" class="easyui-validatebox"  /> 
+       </div> 
+       <div class="fitem"> 
+           <label for="App_Logo"> 
+              应用Logo</label> 
+           <input name="App_Logo" class="easyui-validatebox"  /> 
+       </div> 
+       <div class="fitem"> 
+           <label for="App_Description"> 
+               应用描述</label> 
+           <textarea name="App_Description" style="width:230px"  > </textarea>
+       </div> 
+       <div class="fitem"> 
+           <label for="App_url"> 
+               应用地址</label> 
+           <input name="App_url" class="easyui-vlidatebox" > 
+       </div> 
+            <div class="fitem"> 
+           <label for="App_BrowseNum"> 
+               浏览次数</label> 
+           <input name="App_BrowseNum" class="easyui-vlidatebox" > 
+       </div> 
+            <div class="fitem"> 
+           <label for ="App_DownNum"> 
+               下载次数</label> 
+           <input name="App_DownNum" class="easyui-vlidatebox" > 
+       </div> 
+            <div class="fitem"> 
+           <label for ="App_Gragh"> 
+               应用界面</label> 
+           <input name="App_Gragh" class="easyui-vlidatebox" > 
+       </div> 
+            <div class="fitem"> 
+           <label for="AppUpdate_Time"> 
+               上传时间</label> 
+           <input name="AppUpdate_Time" class="easyui-datetimebox" > 
+       </div> 
+           
+            <div class="fitem"> 
+           <label for="App_State"> 
+               状态</label> 
+           <input name="App_State" class="easyui-vlidatebox"> 
+       </div> 
+    
+            <div class="fitem"> 
+           <label for="App_Option"> 
+               备注</label> 
+           <textarea name="App_Option" style="width:230px" > </textarea>
+       </div> 
+       </form> 
+   </div>
+        <div id="dlg-buttons2">
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-ok" onclick="saveAppEdit()">保存</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-cancel" onclick="javascript:$('#dlgEdit').dialog('close')">取消</a>
+    </div>
+          
+        
 </body>
 </html>
