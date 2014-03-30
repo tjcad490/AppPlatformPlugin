@@ -1,6 +1,6 @@
 G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppOrderService.BLL\bin\AppPlatform.AppOrderService.BLL.dll
 G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppOrderService.BLL\bin\AppPlatform.AppOrderService.BLL.pdb
 G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppOrderService.BLL\bin\UIShell.OSGi.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppOrderService.BLL\obj\Debug\AppPlatform.AppOrderService.BLL.csprojResolveAssemblyReference.cache
 G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppOrderService.BLL\obj\Debug\AppPlatform.AppOrderService.BLL.dll
 G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppOrderService.BLL\obj\Debug\AppPlatform.AppOrderService.BLL.pdb
-G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppOrderService.BLL\obj\Debug\AppPlatform.AppOrderService.BLL.csprojResolveAssemblyReference.cache
