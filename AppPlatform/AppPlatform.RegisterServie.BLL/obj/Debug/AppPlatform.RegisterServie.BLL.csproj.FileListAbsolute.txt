@@ -1,0 +1,11 @@
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.RegisterServie.BLL\bin\AppPlatform.RegisterServie.BLL.dll.config
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.RegisterServie.BLL\bin\AppPlatform.RegisterServie.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.RegisterServie.BLL\bin\AppPlatform.RegisterServie.BLL.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.RegisterServie.BLL\bin\EntityFramework.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.RegisterServie.BLL\bin\EntityFramework.SqlServer.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.RegisterServie.BLL\bin\UIShell.OSGi.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.RegisterServie.BLL\bin\EntityFramework.xml
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.RegisterServie.BLL\bin\EntityFramework.SqlServer.xml
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.RegisterServie.BLL\obj\Debug\AppPlatform.RegisterServie.BLL.csprojResolveAssemblyReference.cache
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.RegisterServie.BLL\obj\Debug\AppPlatform.RegisterServie.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.RegisterServie.BLL\obj\Debug\AppPlatform.RegisterServie.BLL.pdb

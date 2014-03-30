@@ -1,0 +1,5 @@
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatForm.EnterpriseOrganService.BLL\bin\AppPlatForm.EnterpriseOrganService.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatForm.EnterpriseOrganService.BLL\bin\AppPlatForm.EnterpriseOrganService.BLL.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatForm.EnterpriseOrganService.BLL\bin\UIShell.OSGi.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatForm.EnterpriseOrganService.BLL\obj\Debug\AppPlatForm.EnterpriseOrganService.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatForm.EnterpriseOrganService.BLL\obj\Debug\AppPlatForm.EnterpriseOrganService.BLL.pdb

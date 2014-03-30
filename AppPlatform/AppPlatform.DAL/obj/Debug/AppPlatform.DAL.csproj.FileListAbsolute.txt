@@ -1,0 +1,10 @@
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.DAL.dll.config
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.DAL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\bin\Debug\AppPlatform.DAL.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\bin\Debug\EntityFramework.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\bin\Debug\EntityFramework.SqlServer.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\bin\Debug\EntityFramework.xml
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\bin\Debug\EntityFramework.SqlServer.xml
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\obj\Debug\AppPlatform.DAL.csprojResolveAssemblyReference.cache
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\obj\Debug\AppPlatform.DAL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.DAL\obj\Debug\AppPlatform.DAL.pdb

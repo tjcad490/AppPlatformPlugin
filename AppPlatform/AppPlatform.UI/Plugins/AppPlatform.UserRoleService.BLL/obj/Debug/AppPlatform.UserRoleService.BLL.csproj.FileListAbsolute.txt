@@ -1,0 +1,5 @@
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.UserRoleService.BLL\bin\AppPlatform.UserRoleService.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.UserRoleService.BLL\bin\AppPlatform.UserRoleService.BLL.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.UserRoleService.BLL\bin\UIShell.OSGi.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.UserRoleService.BLL\obj\Debug\AppPlatform.UserRoleService.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.UserRoleService.BLL\obj\Debug\AppPlatform.UserRoleService.BLL.pdb

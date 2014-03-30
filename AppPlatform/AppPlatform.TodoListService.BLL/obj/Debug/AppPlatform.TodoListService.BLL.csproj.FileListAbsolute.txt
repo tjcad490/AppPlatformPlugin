@@ -1,0 +1,5 @@
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.TodoListService.BLL\bin\AppPlatform.TodoListService.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.TodoListService.BLL\bin\AppPlatform.TodoListService.BLL.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.TodoListService.BLL\bin\UIShell.OSGi.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.TodoListService.BLL\obj\Debug\AppPlatform.TodoListService.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.TodoListService.BLL\obj\Debug\AppPlatform.TodoListService.BLL.pdb

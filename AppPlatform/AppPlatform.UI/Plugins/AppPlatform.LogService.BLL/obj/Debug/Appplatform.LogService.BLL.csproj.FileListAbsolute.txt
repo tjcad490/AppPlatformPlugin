@@ -1,0 +1,10 @@
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\Appplatform.LogService.BLL\bin\Appplatform.LogService.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\Appplatform.LogService.BLL\bin\Appplatform.LogService.BLL.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\Appplatform.LogService.BLL\bin\EntityFramework.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\Appplatform.LogService.BLL\bin\EntityFramework.SqlServer.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\Appplatform.LogService.BLL\bin\UIShell.OSGi.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\Appplatform.LogService.BLL\bin\EntityFramework.xml
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\Appplatform.LogService.BLL\bin\EntityFramework.SqlServer.xml
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\Appplatform.LogService.BLL\obj\Debug\Appplatform.LogService.BLL.csprojResolveAssemblyReference.cache
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\Appplatform.LogService.BLL\obj\Debug\Appplatform.LogService.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\Appplatform.LogService.BLL\obj\Debug\Appplatform.LogService.BLL.pdb

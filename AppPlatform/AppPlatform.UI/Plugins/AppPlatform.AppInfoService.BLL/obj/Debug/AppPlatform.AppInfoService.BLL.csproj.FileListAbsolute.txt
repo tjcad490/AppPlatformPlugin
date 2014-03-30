@@ -1,0 +1,14 @@
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppInfoService.BLL\bin\AppPlatform.AppInfoService.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppInfoService.BLL\bin\AppPlatform.AppInfoService.BLL.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppInfoService.BLL\bin\AppPlatform.DAL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppInfoService.BLL\bin\AppPlatform.IDAL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppInfoService.BLL\bin\AppPlatform.Model.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppInfoService.BLL\bin\UIShell.OSGi.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppInfoService.BLL\bin\EntityFramework.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppInfoService.BLL\bin\AppPlatform.DAL.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppInfoService.BLL\bin\AppPlatform.IDAL.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppInfoService.BLL\bin\AppPlatform.Model.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppInfoService.BLL\bin\EntityFramework.xml
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppInfoService.BLL\obj\Debug\AppPlatform.AppInfoService.BLL.csprojResolveAssemblyReference.cache
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppInfoService.BLL\obj\Debug\AppPlatform.AppInfoService.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.AppInfoService.BLL\obj\Debug\AppPlatform.AppInfoService.BLL.pdb

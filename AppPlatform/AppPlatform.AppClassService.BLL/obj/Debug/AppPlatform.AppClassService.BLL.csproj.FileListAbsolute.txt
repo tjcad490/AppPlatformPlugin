@@ -1,0 +1,14 @@
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.AppClassService.BLL\bin\AppPlatform.AppClassService.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.AppClassService.BLL\bin\AppPlatform.AppClassService.BLL.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.AppClassService.BLL\bin\AppPlatform.DAL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.AppClassService.BLL\bin\AppPlatform.IDAL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.AppClassService.BLL\bin\AppPlatform.Model.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.AppClassService.BLL\bin\UIShell.OSGi.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.AppClassService.BLL\bin\EntityFramework.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.AppClassService.BLL\bin\AppPlatform.DAL.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.AppClassService.BLL\bin\AppPlatform.IDAL.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.AppClassService.BLL\bin\AppPlatform.Model.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.AppClassService.BLL\bin\EntityFramework.xml
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.AppClassService.BLL\obj\Debug\AppPlatform.AppClassService.BLL.csprojResolveAssemblyReference.cache
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.AppClassService.BLL\obj\Debug\AppPlatform.AppClassService.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.AppClassService.BLL\obj\Debug\AppPlatform.AppClassService.BLL.pdb

@@ -1,0 +1,5 @@
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.RolePermissionService.BLL\bin\AppPlatform.RolePermissionService.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.RolePermissionService.BLL\bin\AppPlatform.RolePermissionService.BLL.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.RolePermissionService.BLL\bin\UIShell.OSGi.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.RolePermissionService.BLL\obj\Debug\AppPlatform.RolePermissionService.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.UI\Plugins\AppPlatform.RolePermissionService.BLL\obj\Debug\AppPlatform.RolePermissionService.BLL.pdb

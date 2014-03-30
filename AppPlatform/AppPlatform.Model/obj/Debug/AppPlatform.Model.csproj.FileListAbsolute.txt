@@ -1,0 +1,9 @@
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.Model\bin\Debug\AppPlatform.Model.dll.config
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.Model\bin\Debug\AppPlatform.Model.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.Model\bin\Debug\AppPlatform.Model.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.Model\bin\Debug\EntityFramework.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.Model\bin\Debug\EntityFramework.SqlServer.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.Model\bin\Debug\EntityFramework.xml
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.Model\bin\Debug\EntityFramework.SqlServer.xml
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.Model\obj\Debug\AppPlatform.Model.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.Model\obj\Debug\AppPlatform.Model.pdb

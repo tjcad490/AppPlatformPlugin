@@ -1,0 +1,11 @@
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.LoginService.BLL\bin\AppPlatform.LoginService.BLL.dll.config
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.LoginService.BLL\bin\AppPlatform.LoginService.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.LoginService.BLL\bin\AppPlatform.LoginService.BLL.pdb
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.LoginService.BLL\bin\EntityFramework.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.LoginService.BLL\bin\EntityFramework.SqlServer.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.LoginService.BLL\bin\UIShell.OSGi.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.LoginService.BLL\bin\EntityFramework.xml
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.LoginService.BLL\bin\EntityFramework.SqlServer.xml
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.LoginService.BLL\obj\Debug\AppPlatform.LoginService.BLL.csprojResolveAssemblyReference.cache
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.LoginService.BLL\obj\Debug\AppPlatform.LoginService.BLL.dll
+G:\实验室项目\AppPlatformPlugin\AppPlatform\AppPlatform.LoginService.BLL\obj\Debug\AppPlatform.LoginService.BLL.pdb

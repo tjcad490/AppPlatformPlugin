@@ -23,7 +23,7 @@ namespace AppPlatform.AppClassService.BLL
         public List<Model.Models.AppClass> AppClassListGet()
         {
             IAppClassRepository _appclassRepository = RepositoryFactory.AppClassRepository;
-            List<AppClass> a = _appclassRepository.LoadEntities(AppClass => (AppClass.AppClass_ID!=null)).ToList<AppClass>();
+            List<AppClass> a = _appclassRepository.LoadEntities(AppClass =>AppClass.AppClass_ID>0).ToList<AppClass>();
             return a;
         }
 
@@ -37,7 +37,7 @@ namespace AppPlatform.AppClassService.BLL
         public bool AppClassCreate(Model.Models.AppClass appClass)
         {
             IAppClassRepository _appClassRepository = RepositoryFactory.AppClassRepository;
-            return _appClassRepository.AddEntity(appClass); ;
+            return _appClassRepository.AddEntity(appClass);
         }
 
         public bool AppClassUpdate(Model.Models.AppClass appClass)
