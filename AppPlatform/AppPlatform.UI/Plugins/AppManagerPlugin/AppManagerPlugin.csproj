@@ -410,7 +410,7 @@
       <Project>{e23410d3-3039-4828-ba44-7e3658284812}</Project>
       <Name>AppPlatform.Model</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\AppPlatform.AppClassService.BLL\AppPlatform.AppClassService.BLL.csproj">
+    <ProjectReference Include="..\AppPlatform.AppClassService.BLL\AppPlatform.AppClassService.BLL.csproj">
       <Project>{15dd31ea-eb21-497a-9910-a6036f576e24}</Project>
       <Name>AppPlatform.AppClassService.BLL</Name>
       <Private>False</Private>

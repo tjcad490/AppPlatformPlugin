@@ -69,8 +69,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoleManagerPlugin", "AppPla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseManagerPlugin", "AppPlatform.UI\Plugins\EnterpriseManagerPlugin\EnterpriseManagerPlugin.csproj", "{456B3179-E70E-4121-A1D3-7B136DD84C61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppPlatform.AppClassService.BLL", "AppPlatform.AppClassService.BLL\AppPlatform.AppClassService.BLL.csproj", "{15DD31EA-EB21-497A-9910-A6036F576E24}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppPlatform.LoginService.BLL", "AppPlatform.LoginService.BLL\AppPlatform.LoginService.BLL.csproj", "{893B5B63-5FA9-4B3F-A5FF-7839A5897772}"
 	ProjectSection(ProjectDependencies) = postProject
 		{E23410D3-3039-4828-BA44-7E3658284812} = {E23410D3-3039-4828-BA44-7E3658284812}
@@ -103,6 +101,7 @@ EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NewApp", "NewApp\", "{8D6746BD-C569-4788-B4D1-72D348D582F2}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{622cd62f-16f6-490e-8a37-a34fa87dd0d5}|SSOSDK.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/NewApp"
 		Debug.AspNetCompiler.PhysicalPath = "NewApp\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\NewApp\"
@@ -119,6 +118,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NewApp", "NewApp\", "{8D674
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "38065"
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppPlatform.AppClassService.BLL", "AppPlatform.UI\Plugins\AppPlatform.AppClassService.BLL\AppPlatform.AppClassService.BLL.csproj", "{15DD31EA-EB21-497A-9910-A6036F576E24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -222,10 +223,6 @@ Global
 		{456B3179-E70E-4121-A1D3-7B136DD84C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{456B3179-E70E-4121-A1D3-7B136DD84C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{456B3179-E70E-4121-A1D3-7B136DD84C61}.Release|Any CPU.Build.0 = Release|Any CPU
-		{15DD31EA-EB21-497A-9910-A6036F576E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{15DD31EA-EB21-497A-9910-A6036F576E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{15DD31EA-EB21-497A-9910-A6036F576E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{15DD31EA-EB21-497A-9910-A6036F576E24}.Release|Any CPU.Build.0 = Release|Any CPU
 		{893B5B63-5FA9-4B3F-A5FF-7839A5897772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{893B5B63-5FA9-4B3F-A5FF-7839A5897772}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{893B5B63-5FA9-4B3F-A5FF-7839A5897772}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -274,6 +271,10 @@ Global
 		{8D6746BD-C569-4788-B4D1-72D348D582F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D6746BD-C569-4788-B4D1-72D348D582F2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{8D6746BD-C569-4788-B4D1-72D348D582F2}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{15DD31EA-EB21-497A-9910-A6036F576E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15DD31EA-EB21-497A-9910-A6036F576E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15DD31EA-EB21-497A-9910-A6036F576E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15DD31EA-EB21-497A-9910-A6036F576E24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
