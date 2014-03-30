@@ -127,6 +127,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activator.cs" />
+    <Compile Include="Controllers\AppClassController.cs" />
     <Compile Include="Controllers\AppInfoController.cs" />
     <Compile Include="Controllers\AppReleaseController.cs" />
     <Compile Include="Controllers\AppStoreController.cs" />
@@ -397,6 +398,23 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\AppPlatform.DAL\AppPlatform.DAL.csproj">
+      <Project>{cd97f16b-08c6-41ba-8ac1-377fbc4ac59d}</Project>
+      <Name>AppPlatform.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\AppPlatform.IDAL\AppPlatform.IDAL.csproj">
+      <Project>{52cf0184-191e-4005-9b30-6eaec8d363fa}</Project>
+      <Name>AppPlatform.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\AppPlatform.Model\AppPlatform.Model.csproj">
+      <Project>{e23410d3-3039-4828-ba44-7e3658284812}</Project>
+      <Name>AppPlatform.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\AppPlatform.AppClassService.BLL\AppPlatform.AppClassService.BLL.csproj">
+      <Project>{15dd31ea-eb21-497a-9910-a6036f576e24}</Project>
+      <Name>AppPlatform.AppClassService.BLL</Name>
+      <Private>False</Private>
+    </ProjectReference>
     <ProjectReference Include="..\AppPlatform.AppInfoService.BLL\AppPlatform.AppInfoService.BLL.csproj">
       <Project>{5e950778-728e-4bb3-8eeb-7c5e6a8d0ff7}</Project>
       <Name>AppPlatform.AppInfoService.BLL</Name>
@@ -437,6 +455,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\themes\metro\images\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\AppClass\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

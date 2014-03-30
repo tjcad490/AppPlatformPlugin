@@ -1,29 +1,56 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
+using AppPlatform.IDAL;
+using AppPlatform.Model;
+using AppPlatform.DAL;
+using System.Data.SqlClient;
+using System.Threading.Tasks;
+using AppPlatform.Model.Models;
+
 
 namespace AppPlatform.AppClassService.BLL
 {
     public class AppClassService : IAppClassService
     {
-        public void AppClassListGet()
+         public List<Model.Models.AppClass>  GetAppClassByPid(int AppClass_ID)
         {
-            throw new NotImplementedException();
+            IAppClassRepository _appclassRepository = RepositoryFactory.AppClassRepository;
+            List<AppClass> a = _appclassRepository.LoadEntities(AppClass => (AppClass.AppClass_PID == AppClass_ID)).ToList<AppClass>();
+            return a;
+        }
+        public List<Model.Models.AppClass> AppClassListGet()
+        {
+            IAppClassRepository _appclassRepository = RepositoryFactory.AppClassRepository;
+            List<AppClass> a = _appclassRepository.LoadEntities(AppClass => (AppClass.AppClass_ID!=null)).ToList<AppClass>();
+            return a;
         }
 
-        public void AppClassGet(object AppClassID)
+        public List<AppClass> AppClassGet(int AppClassId)
         {
-            throw new NotImplementedException();
+            IAppClassRepository _appclassRepository = RepositoryFactory.AppClassRepository;
+            List<AppClass> a = _appclassRepository.LoadEntities(AppClass => (AppClass.AppClass_ID == AppClassId)).ToList<AppClass>();
+            return a;
         }
 
-        public bool AppClassUpdate(object AppClass)
+        public bool AppClassCreate(Model.Models.AppClass appClass)
         {
-            throw new NotImplementedException();
+            IAppClassRepository _appClassRepository = RepositoryFactory.AppClassRepository;
+            return _appClassRepository.AddEntity(appClass); ;
         }
 
-        public bool AppClassDelete(object AppClassID)
+        public bool AppClassUpdate(Model.Models.AppClass appClass)
         {
-            throw new NotImplementedException();
+            IAppClassRepository _appClassRepository = RepositoryFactory.AppClassRepository;
+            return _appClassRepository.UpdateEntity(appClass);
+        }
+
+        public bool AppClassDelete(int AppClassID)
+        {
+            IAppClassRepository _appClassRepository = RepositoryFactory.AppClassRepository;
+            AppClass appClass = _appClassRepository.LoadEntities(AppClass => (AppClass.AppClass_ID == AppClassID)).FirstOrDefault();
+            return _appClassRepository.DeleteEntity(appClass);
         }
     }
 }
