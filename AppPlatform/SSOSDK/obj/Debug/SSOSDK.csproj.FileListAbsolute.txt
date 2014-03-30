@@ -1,0 +1,4 @@
+C:\Users\chilton\Desktop\MyApp\MyApp\SSOSDK\bin\Debug\SSOSDK.dll
+C:\Users\chilton\Desktop\MyApp\MyApp\SSOSDK\bin\Debug\SSOSDK.pdb
+C:\Users\chilton\Desktop\MyApp\MyApp\SSOSDK\obj\Debug\SSOSDK.dll
+C:\Users\chilton\Desktop\MyApp\MyApp\SSOSDK\obj\Debug\SSOSDK.pdb

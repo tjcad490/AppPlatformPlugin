@@ -10,6 +10,7 @@ using AppPlatform.IDAL;
 using AppPlatform.Model.Models;
 using AppPlatform.RegisterServie.BLL;
 using AppPlatform.Contracts.Commands.RegistryService;
+using System.Web.Security;
 
 namespace AppPlatform.UI.Controllers
 {
@@ -20,6 +21,65 @@ namespace AppPlatform.UI.Controllers
 
         public ActionResult Login()
         {
+            SSORequest ssoRequest = new SSORequest();
+            #region 验证 Post 过来的参数
+            //--------------------------------
+            // 请求注销
+            if (!string.IsNullOrEmpty(Request["Logout"]))
+            {
+                Authentication.Logout();
+            }
+            //--------------------------------
+            // 各独立站点标识
+            if (!string.IsNullOrEmpty(Request["IASID"]))
+            {
+                ssoRequest.IASID = Request["IASID"];
+            }
+
+            //--------------------------------
+            // 时间戳
+            if (!string.IsNullOrEmpty(Request["TimeStamp"]))
+            {
+                ssoRequest.TimeStamp = Request["TimeStamp"];
+            }
+
+            //--------------------------------
+            // 各独立站点的访问地址
+            if (!string.IsNullOrEmpty(Request["AppUrl"]))
+            {
+                ssoRequest.AppUrl = Request["AppUrl"];
+            }
+
+            //--------------------------------
+            // 各独立站点的 Token
+            if (!string.IsNullOrEmpty(Request["Authenticator"]))
+            {
+                ssoRequest.Authenticator = Request["Authenticator"];
+            }
+
+            Session["SSORequest"] = ssoRequest;
+
+            #endregion
+
+            //验证从分站发过来的Token
+            if (Authentication.ValidateAppToken(ssoRequest))
+            {
+                string userAccount = null;
+                string EnterpriseId = null;
+                // 验证用户之前是否登录过
+                //验证 EAC 认证中心的 Cookie,验证通过时获取用户登录账号
+                if (Authentication.ValidateEACCookie(out userAccount, out EnterpriseId))
+                {
+                    ssoRequest.UserAccount = userAccount;
+                    ssoRequest.EnterpriseId = EnterpriseId;
+                    //创建认证中心发往各分站的 Token
+                    if (Authentication.CreateEACToken(ssoRequest))
+                    {
+                        SSOSDK.Post ps=new SSOSDK.Post();
+                        ps.post(ssoRequest);
+                    }
+                }
+            }
             if (Session["LoginError"] != null)
             {
                 ViewData["error"] = Session["LoginError"];

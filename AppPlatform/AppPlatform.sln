@@ -88,8 +88,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppPlatform.DAL", "AppPlatf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppPlatform.IDAL", "AppPlatform.IDAL\AppPlatform.IDAL.csproj", "{52CF0184-191E-4005-9B30-6EAEC8D363FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testmodel", "testmodel\testmodel.csproj", "{8CF719E8-2E55-4589-BECE-39A2CA39A9E3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppPlatform.Model", "AppPlatform.Model\AppPlatform.Model.csproj", "{E23410D3-3039-4828-BA44-7E3658284812}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appplatform.LogService.BLL", "AppPlatform.UI\Plugins\Appplatform.LogService.BLL\Appplatform.LogService.BLL.csproj", "{5C35F74E-196B-4A5B-A404-3BE316C96D3E}"
@@ -99,6 +97,28 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppPlatform.Contracts", "AppPlatform.Contracts\AppPlatform.Contracts.csproj", "{9675BDE1-9502-453E-8427-3EE8E0615AF1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppPlatform.Backend", "AppPlatform.Backend\AppPlatform.Backend.csproj", "{4431F762-6BFB-4A05-835E-C6DEB64D17F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppPlatform.SSOSDK", "SSOSDK\AppPlatform.SSOSDK.csproj", "{622CD62F-16F6-490E-8A37-A34FA87DD0D5}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NewApp", "NewApp\", "{8D6746BD-C569-4788-B4D1-72D348D582F2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/NewApp"
+		Debug.AspNetCompiler.PhysicalPath = "NewApp\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\NewApp\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/NewApp"
+		Release.AspNetCompiler.PhysicalPath = "NewApp\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\NewApp\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "38065"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -230,10 +250,6 @@ Global
 		{52CF0184-191E-4005-9B30-6EAEC8D363FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52CF0184-191E-4005-9B30-6EAEC8D363FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52CF0184-191E-4005-9B30-6EAEC8D363FA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8CF719E8-2E55-4589-BECE-39A2CA39A9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8CF719E8-2E55-4589-BECE-39A2CA39A9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8CF719E8-2E55-4589-BECE-39A2CA39A9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8CF719E8-2E55-4589-BECE-39A2CA39A9E3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E23410D3-3039-4828-BA44-7E3658284812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E23410D3-3039-4828-BA44-7E3658284812}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E23410D3-3039-4828-BA44-7E3658284812}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -250,6 +266,14 @@ Global
 		{4431F762-6BFB-4A05-835E-C6DEB64D17F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4431F762-6BFB-4A05-835E-C6DEB64D17F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4431F762-6BFB-4A05-835E-C6DEB64D17F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{622CD62F-16F6-490E-8A37-A34FA87DD0D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{622CD62F-16F6-490E-8A37-A34FA87DD0D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{622CD62F-16F6-490E-8A37-A34FA87DD0D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{622CD62F-16F6-490E-8A37-A34FA87DD0D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D6746BD-C569-4788-B4D1-72D348D582F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6746BD-C569-4788-B4D1-72D348D582F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D6746BD-C569-4788-B4D1-72D348D582F2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6746BD-C569-4788-B4D1-72D348D582F2}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -264,7 +288,6 @@ Global
 		{3090407D-258D-4925-B1E8-8FEE73E4FF4E} = {AFCAFBA7-CDDA-4EAD-9335-8893E57FC9B3}
 		{CD97F16B-08C6-41BA-8AC1-377FBC4AC59D} = {129FE411-7332-4B59-9C2F-1648533948F6}
 		{52CF0184-191E-4005-9B30-6EAEC8D363FA} = {129FE411-7332-4B59-9C2F-1648533948F6}
-		{8CF719E8-2E55-4589-BECE-39A2CA39A9E3} = {129FE411-7332-4B59-9C2F-1648533948F6}
 		{E23410D3-3039-4828-BA44-7E3658284812} = {129FE411-7332-4B59-9C2F-1648533948F6}
 		{893B5B63-5FA9-4B3F-A5FF-7839A5897772} = {99B0FBDB-E1C7-4F85-B0F8-FBC1C91C00E1}
 		{DF92CB13-ED89-46CD-9504-09BCE5C5A7A1} = {99B0FBDB-E1C7-4F85-B0F8-FBC1C91C00E1}
@@ -294,6 +317,7 @@ Global
 		{3A4D6871-6907-4CAF-9DC5-E23AD92AD581} = {3B8615BD-787F-470D-BD78-0680730256B8}
 		{2ECB27B9-7C0A-4FB5-99FB-A78F958F44AE} = {3B8615BD-787F-470D-BD78-0680730256B8}
 		{45717637-ECD0-41B2-95E3-07E10039EF0B} = {8302AFEE-A289-41A4-B563-1BD7C3D4743D}
+		{622CD62F-16F6-490E-8A37-A34FA87DD0D5} = {8302AFEE-A289-41A4-B563-1BD7C3D4743D}
 		{9675BDE1-9502-453E-8427-3EE8E0615AF1} = {6DA23F64-AE4B-4C01-873B-D9436EB1491B}
 		{4431F762-6BFB-4A05-835E-C6DEB64D17F2} = {6DA23F64-AE4B-4C01-873B-D9436EB1491B}
 	EndGlobalSection

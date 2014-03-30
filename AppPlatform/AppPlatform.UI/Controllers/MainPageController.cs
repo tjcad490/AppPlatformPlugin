@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 
 namespace AppPlatform.UI.Controllers
 {
@@ -52,50 +53,80 @@ namespace AppPlatform.UI.Controllers
                 //保存用户账户信息
                 Session["EnterpriseAccount"] = enterPriseID;
                 Session["UserAccount"] = userID;
-                //显示欢迎页面信息
-                IEnterpriseRepository _enterPriseRopository = RepositoryFactory.EnterpriseRepository;
-                Enterprise enterPrise = _enterPriseRopository.LoadEntities(Enterprise => Enterprise.Enterprise_ID == enterPriseID).FirstOrDefault();
-                ViewData["EnterpriseName"] = enterPrise.Enterprise_Name + "：";
-                IUserRepository _userRepository = RepositoryFactory.UserRepository;
-                User user = _userRepository.LoadEntities(User => User.Enterprise_ID == enterPrise.Enterprise_ID && User.User_ID == userID).FirstOrDefault();
-                ViewData["userName"] = user.User_Name;
-                //根据用户角色，动态加载菜单项
-                
+                Session.Timeout = 120;
+                SSORequest ssoRequest = Session["SSORequest"] as SSORequest;
 
-                IGroup_FunctionRepository _groupFunction = RepositoryFactory.Group_FunctionRepository;
-                List<Group_Function> GroupFunction = _groupFunction.LoadEntities(Group_Function => Group_Function.Group_ID == userLoginInfo.UserGroupID).ToList<Group_Function>();
-                List<Function> functionList = new List<Function>();
-                foreach (var funitem in GroupFunction)
+                if (ssoRequest.AppUrl == null)
                 {
-                    IFunctionRepository _functionRepository = RepositoryFactory.FunctionRepository;
-                    Function function = _functionRepository.LoadEntities(Function => Function.Function_ID == funitem.Function_ID).FirstOrDefault();
-                    functionList.Add(function);
-                }
-                ViewData["function"] = functionList;
-                ///加载企业应用
-                ///
-                List<App> applist = new List<App>();
-                try
-                {
-                    IApp_RoleRepository _appRoleRepoitory = RepositoryFactory.App_RoleRepository;
-                    var appRole = _appRoleRepoitory.LoadEntities(App_Role => App_Role.Role_ID == userLoginInfo.UserRoleID).ToList<App_Role>();
-                    foreach (var appRoleItem in appRole)
+                    FormsAuthentication.SetAuthCookie(Request["EnterpriseID"],false);
+                    FormsAuthentication.SetAuthCookie(Request["UserID"], false);
+                    //显示欢迎页面信息
+                    IEnterpriseRepository _enterPriseRopository = RepositoryFactory.EnterpriseRepository;
+                    Enterprise enterPrise = _enterPriseRopository.LoadEntities(Enterprise => Enterprise.Enterprise_ID == enterPriseID).FirstOrDefault();
+                    ViewData["EnterpriseName"] = enterPrise.Enterprise_Name + "：";
+                    IUserRepository _userRepository = RepositoryFactory.UserRepository;
+                    User user = _userRepository.LoadEntities(User => User.Enterprise_ID == enterPrise.Enterprise_ID && User.User_ID == userID).FirstOrDefault();
+                    ViewData["userName"] = user.User_Name;
+                    //根据用户角色，动态加载菜单项
+
+
+                    IGroup_FunctionRepository _groupFunction = RepositoryFactory.Group_FunctionRepository;
+                    List<Group_Function> GroupFunction = _groupFunction.LoadEntities(Group_Function => Group_Function.Group_ID == userLoginInfo.UserGroupID).ToList<Group_Function>();
+                    List<Function> functionList = new List<Function>();
+                    foreach (var funitem in GroupFunction)
                     {
-                        IAppRepository _appRepoitory = RepositoryFactory.AppRepository;
-                        var app = _appRepoitory.LoadEntities(App => App.App_ID == appRoleItem.App_ID).FirstOrDefault();
-                        applist.Add(app);
+                        IFunctionRepository _functionRepository = RepositoryFactory.FunctionRepository;
+                        Function function = _functionRepository.LoadEntities(Function => Function.Function_ID == funitem.Function_ID).FirstOrDefault();
+                        functionList.Add(function);
                     }
+                    ViewData["function"] = functionList;
+                    ///加载企业应用
+                    ///
+                    List<App> applist = new List<App>();
+                    try
+                    {
+                        IApp_RoleRepository _appRoleRepoitory = RepositoryFactory.App_RoleRepository;
+                        var appRole = _appRoleRepoitory.LoadEntities(App_Role => App_Role.Role_ID == userLoginInfo.UserRoleID).ToList<App_Role>();
+                        foreach (var appRoleItem in appRole)
+                        {
+                            IAppRepository _appRepoitory = RepositoryFactory.AppRepository;
+                            var app = _appRepoitory.LoadEntities(App => App.App_ID == appRoleItem.App_ID).FirstOrDefault();
+                            applist.Add(app);
+                        }
+                    }
+                    catch (Exception e)
+                    {
+                    }
+                    if (applist != null)
+                    {
+                        ViewData["applist"] = applist;
+                    }
+                    //创建主站令牌
+                    ssoRequest = new SSORequest();
+                    //主站标识ID
+                    ssoRequest.IASID = "00";
+                    ssoRequest.AppUrl = "http://localhost:25057/MainPage/LoginSuccess";
+                    ssoRequest.TimeStamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm");
+                    ssoRequest.Authenticator = string.Empty;
+                    ssoRequest.UserAccount =userID.ToString();
+                    ssoRequest.EnterpriseId = enterPriseID.ToString();
+                    return View();
                 }
-                catch(Exception e)
-                { 
-                }
-                if (applist != null)
+                else
                 {
-                    ViewData["applist"] = applist;
-                }
-                
+                    ssoRequest.UserAccount = userID.ToString();
+                    ssoRequest.EnterpriseId = enterPriseID.ToString();
+                    //创建Token
+                    if (Authentication.CreateEACToken(ssoRequest))
+                    {
+                        string expireTime = DateTime.Now.AddHours(3).ToString("yyyy-MM-dd HH:mm");
 
-                return View();
+                        Authentication.CreatEACCookie(ssoRequest.UserAccount, ssoRequest.EnterpriseId, ssoRequest.TimeStamp, expireTime);
+                        SSOSDK.Post ps = new SSOSDK.Post();
+                        ps.post(ssoRequest);
+                    }
+                      return new EmptyResult();
+                }
             }
             return new EmptyResult();
         }

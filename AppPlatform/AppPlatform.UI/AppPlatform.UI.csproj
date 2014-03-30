@@ -520,6 +520,11 @@
       <Project>{f1095571-0171-4d03-9bdd-2db962a981e4}</Project>
       <Name>UIShell.Extension</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SSOSDK\AppPlatform.SSOSDK.csproj">
+      <Project>{622cd62f-16f6-490e-8a37-a34fa87dd0d5}</Project>
+      <Name>AppPlatform.SSOSDK</Name>
+      <Private>False</Private>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Account\Edit.cshtml" />
