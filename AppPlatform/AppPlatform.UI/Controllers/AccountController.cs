@@ -92,6 +92,10 @@ namespace AppPlatform.UI.Controllers
 
         public ActionResult Create()//创建用户界面
         {
+            if (Session["regiterErr"] != null)
+            {
+                ViewBag.Email = Session["regiterErr"];
+            }
             IGroupRepository _group = RepositoryFactory.GroupRepository;
             List<Group> grouplist = _group.LoadEntities(Group => Group.Group_ID > 0).ToList<Group>();
             ViewData["group"] = grouplist;
@@ -100,7 +104,7 @@ namespace AppPlatform.UI.Controllers
         [HttpPost]
         public ActionResult Register()
         {
-            
+
             Enterprise enterprise = new Enterprise();
             User user = new User();
             enterprise.Enterprise_Name = Request.Form["Enterprise_Name"];
@@ -109,18 +113,28 @@ namespace AppPlatform.UI.Controllers
             enterprise.Enterprise_Code = Request.Form["Enterprise_Code"];
             enterprise.Enterprise_Email = Request.Form["Enterprise_Email"];
             var EnterpriseType = Request.Form["Enterprise_Type"];
-            IRegisterService _registerService = new AppPlatform.RegisterServie.BLL.RegisterService();
-            RegisterInfo registerInfo = _registerService.Regiter(enterprise, user, EnterpriseType);
-            
-            ServiceBus.Bus.Send(new CreateNewUserCmd 
+            IEnterpriseRepository _enter = RepositoryFactory.EnterpriseRepository;
+            var ent = _enter.LoadEntities(Enterprise => Enterprise.Enterprise_Email == enterprise.Enterprise_Email).FirstOrDefault();
+            if (ent != null)
             {
-                
-                EnterpriseId = registerInfo.EnterpriseAccount,
-                UserId = registerInfo.UserAccount,
-                EmailAddress = enterprise.Enterprise_Email
-            });
+                Session["regiterErr"] = "邮箱已经被注册";
+                return RedirectToAction("Create");
+            }
+            else
+            {
+                IRegisterService _registerService = new AppPlatform.RegisterServie.BLL.RegisterService();
+                RegisterInfo registerInfo = _registerService.Regiter(enterprise, user, EnterpriseType);
 
-            return RedirectToAction("Login");
+                ServiceBus.Bus.Send(new CreateNewUserCmd
+                {
+
+                    EnterpriseId = registerInfo.EnterpriseAccount,
+                    UserId = registerInfo.UserAccount,
+                    EmailAddress = enterprise.Enterprise_Email
+                });
+
+                return RedirectToAction("Login");
+            }
         }
         
     }
